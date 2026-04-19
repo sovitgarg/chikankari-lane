@@ -1,0 +1,32 @@
+# Secrets
+config/
+*.env
+.env*
+
+# Local OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Node (if we add tooling later)
+node_modules/
+npm-debug.log
+
+# Python (if we add scripts in Python)
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Shopify CLI
+.shopify/
+
+# Large binaries — keep raw photos out of git, use cloud storage
+assets/products/raw/
+assets/lifestyle/raw/
+*.psd
+*.ai
