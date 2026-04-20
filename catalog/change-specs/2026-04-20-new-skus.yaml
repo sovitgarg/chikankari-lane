@@ -1,0 +1,91 @@
+# Adds two new SKUs AirDropped today:
+#   21-black-chikankari-suit  (INR 10,990)
+#   22-green-chikankari-suit  (INR 13,990)
+#
+# Both are single-variant, semistitched, one-of-a-kind.
+# Photos already ingested to catalog/products/<handle>/ and committed to git.
+# Videos tracked here for manual upload via the Shopify admin (CSV can't
+# carry video media).
+
+date: 2026-04-20
+normalize_qty_to_1: true
+
+# Replay all prior edits too so a fresh upload covers today's full state
+# end-to-end. (normalize_qty_to_1 handles the "5 -> 1" normalization
+# automatically for the rest of the catalog.)
+changes:
+  - handle: 01-crimson-paisley-suit
+    action: update_fields
+    set_type: Semistitched Suit
+    remove_tags: [bridal]
+    source: "pre-existing cleanup"
+
+  - handle: 02-powder-blue-floral-suit
+    action: update_fields
+    set_type: Semistitched Suit
+    source: "pre-existing cleanup"
+
+  - handle: 07-oatmeal-medallion-suit
+    action: mark_sold
+    price: 14990
+    source: "WhatsApp Ruchi Garg 10:02 AM"
+
+  - handle: 13-blush-pink-mul-suit
+    action: mark_sold
+    price: 9990
+    source: "WhatsApp Ruchi Garg 10:06 AM"
+
+  - handle: 16-ivory-mul-paisley-suit
+    action: mark_sold
+    price: 9000
+    source: "WhatsApp Ruchi Garg 10:04 AM"
+
+new_products:
+  - handle: 20-blush-pink-chikankari-suit
+    title: Blush Pink Chikankari Suit
+    price: 10000
+    qty: 0
+    status: draft
+    type: Semistitched Suit
+    tags: [blush-pink, chikankari, lucknow, mul-cotton, sold, unstitched-suit]
+    body_html: "<p>Placeholder record for a blush-pink chikankari suit reported sold on 2026-04-20. Update description and add images before publishing.</p>"
+    source: "WhatsApp Ruchi Garg 10:07 AM"
+
+  - handle: 21-black-chikankari-suit
+    title: Black Chikankari Suit
+    price: 10990
+    qty: 1
+    status: active
+    type: Semistitched Suit
+    tags: [black, chikankari, festive, lucknow, mul-cotton, unstitched-suit]
+    body_html: |
+      <p>A deep-black unstitched suit with dense silver-white chikankari — scattered mukaish dot buttis across the body, with a classic bakhiya + murri yoke and a mirror-beaded floral medallion at the centre.</p>
+      <p><strong>Fabric:</strong> Mul Cotton</p>
+      <p><strong>Colour:</strong> Black</p>
+      <p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>
+    images:
+      - 01-image.jpg
+      - 02-image.jpg
+      - 03-image.jpg
+    videos:
+      - 01-video.mp4
+    source: "AirDrop 2026-04-20"
+
+  - handle: 22-green-chikankari-suit
+    title: Mehendi Green Chikankari Suit
+    price: 13990
+    qty: 1
+    status: active
+    type: Semistitched Suit
+    tags: [chikankari, festive, lucknow, mehendi-green, mul-cotton, unstitched-suit]
+    body_html: |
+      <p>An unstitched suit in a warm mehendi-green base, worked in vertical panels of dense silver-white chikankari — pinstripe sequin runs break up the body, framed by rich floral bel (vine) borders at the yoke and hem.</p>
+      <p><strong>Fabric:</strong> Mul Cotton</p>
+      <p><strong>Colour:</strong> Mehendi Green</p>
+      <p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>
+    images:
+      - 01-image.jpg
+      - 02-image.jpg
+    videos:
+      - 01-video.mp4
+    source: "AirDrop 2026-04-20"

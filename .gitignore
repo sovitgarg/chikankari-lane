@@ -25,6 +25,9 @@ venv/
 # Shopify CLI
 .shopify/
 
+# Claude Code — per-machine permissions (skills/ is tracked)
+.claude/settings.local.json
+
 # Large binaries — keep raw photos out of git, use cloud storage
 assets/products/raw/
 assets/lifestyle/raw/

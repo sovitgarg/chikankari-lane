@@ -1,0 +1,43 @@
+# Smoke-test spec — reproduces by script the change-set we built by hand earlier today.
+# Expected result: an after.csv identical-in-intent to 2026-04-20-after.csv.
+
+date: 2026-04-20
+normalize_qty_to_1: true
+
+changes:
+  - handle: 01-crimson-paisley-suit
+    action: update_fields
+    set_type: Semistitched Suit
+    remove_tags: [bridal]
+    source: "pre-existing cleanup"
+
+  - handle: 02-powder-blue-floral-suit
+    action: update_fields
+    set_type: Semistitched Suit
+    source: "pre-existing cleanup"
+
+  - handle: 07-oatmeal-medallion-suit
+    action: mark_sold
+    price: 14990
+    source: "WhatsApp Ruchi Garg 10:02 AM"
+
+  - handle: 13-blush-pink-mul-suit
+    action: mark_sold
+    price: 9990
+    source: "WhatsApp Ruchi Garg 10:06 AM"
+
+  - handle: 16-ivory-mul-paisley-suit
+    action: mark_sold
+    price: 9000
+    source: "WhatsApp Ruchi Garg 10:04 AM"
+
+new_products:
+  - handle: 20-blush-pink-chikankari-suit
+    title: Blush Pink Chikankari Suit
+    price: 10000
+    qty: 0
+    status: draft
+    type: Semistitched Suit
+    tags: [blush-pink, chikankari, lucknow, mul-cotton, sold, unstitched-suit]
+    body_html: "<p>Placeholder record for a blush-pink chikankari suit reported sold on 2026-04-20. Update description and add images before publishing.</p>"
+    source: "WhatsApp Ruchi Garg 10:07 AM"
