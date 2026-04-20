@@ -1,0 +1,45 @@
+# Add ONLY the two new SKUs — 21-black and 22-green — with no changes to any
+# existing product. Because this spec has new_products but no `changes:`,
+# generate-csv.py will automatically emit a minimal "new-only" CSV.
+
+date: 2026-04-20
+
+new_products:
+  - handle: 21-black-chikankari-suit
+    title: Black Chikankari Suit
+    price: 10990
+    qty: 1
+    status: active
+    type: Semistitched Suit
+    tags: [black, chikankari, festive, lucknow, mul-cotton, unstitched-suit]
+    body_html: |
+      <p>A deep-black unstitched suit with dense silver-white chikankari — scattered mukaish dot buttis across the body, with a classic bakhiya + murri yoke and a mirror-beaded floral medallion at the centre.</p>
+      <p><strong>Fabric:</strong> Mul Cotton</p>
+      <p><strong>Colour:</strong> Black</p>
+      <p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>
+    images:
+      - 01-image.jpg
+      - 02-image.jpg
+      - 03-image.jpg
+    videos:
+      - 01-video.mp4
+    source: "AirDrop 2026-04-20"
+
+  - handle: 22-green-chikankari-suit
+    title: Mehendi Green Chikankari Suit
+    price: 13990
+    qty: 1
+    status: active
+    type: Semistitched Suit
+    tags: [chikankari, festive, lucknow, mehendi-green, mul-cotton, unstitched-suit]
+    body_html: |
+      <p>An unstitched suit in a warm mehendi-green base, worked in vertical panels of dense silver-white chikankari — pinstripe sequin runs break up the body, framed by rich floral bel (vine) borders at the yoke and hem.</p>
+      <p><strong>Fabric:</strong> Mul Cotton</p>
+      <p><strong>Colour:</strong> Mehendi Green</p>
+      <p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>
+    images:
+      - 01-image.jpg
+      - 02-image.jpg
+    videos:
+      - 01-video.mp4
+    source: "AirDrop 2026-04-20"

@@ -100,10 +100,21 @@ Option B — **write by hand**. Copy an existing file in
   --spec catalog/change-specs/YYYY-MM-DD-ruchi-whatsapp.yaml
 ```
 
-Outputs:
+Outputs (filenames include HHMM + scope so repeated runs don't collide):
 
-- `catalog/exports/YYYY-MM-DD-after.csv` — upload this to Shopify.
-- `catalog/exports/YYYY-MM-DD-diff.md` — review this first.
+- `catalog/exports/YYYY-MM-DD-HHMM-<scope>-after.csv` — upload this to Shopify.
+- `catalog/exports/YYYY-MM-DD-HHMM-<scope>-diff.md` — review this first.
+
+Scopes:
+
+- **`new`** (default when the spec has `new_products` but no `changes:`): emits
+  a minimal CSV with only the new products. Existing Shopify products are not
+  touched. This is the safe default — use it for every "just add products"
+  session.
+- **`full`**: emits the whole catalog. Use when you want Shopify Overwrite to
+  refresh price/qty/tags/type on existing products in the same upload.
+
+Force either mode with `--only-new-products` or `--full-catalog`.
 
 ### 6. Review the diff
 

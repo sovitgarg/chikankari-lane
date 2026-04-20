@@ -46,6 +46,20 @@ gives you the rules and the tooling to safely update the Shopify catalog.
     `videos:` and the diff will emit manual-upload TODOs with the GitHub raw
     URLs. Videos are always re-encoded with audio stripped at ingestion time.
 
+11. **Scope:** when a session is ONLY adding new products, write a spec with
+    `new_products:` and no `changes:`. `generate-csv.py` automatically emits
+    a minimal "new-only" CSV that leaves every existing Shopify product
+    untouched. To force this, pass `--only-new-products`. To force the
+    opposite (refresh every existing product via Shopify Overwrite), pass
+    `--full-catalog`. Default-new-only is the safe choice: you never touch a
+    product you didn't mean to. Only write `changes:` entries when you
+    deliberately want to update existing products in the same upload.
+
+12. **Output filenames** include an HHMM timestamp (e.g.
+    `2026-04-20-1336-new-after.csv`). Never rely on hard-coded filenames
+    across sessions; always list the `catalog/exports/` directory first and
+    pick the newest file.
+
 ## The four scripts
 
 All scripts live at `scripts/catalog-ops/` and use the repo's `.venv`.
@@ -168,6 +182,11 @@ delete prior entries; they're history.
 - **2026-04-20** — Smoke test caught that the hand-built diff had an incorrect
   "qty 5 → 0" for handle `16`; actual before-state was qty=1. Lesson:
   always trust the live export, never hand-edit qty numbers in the spec.
+- **2026-04-20** — Adding default "new-only" CSV mode. When a spec has
+  `new_products` but no `changes`, `generate-csv.py` now emits a minimal CSV
+  containing only the new rows so existing products are never accidentally
+  overwritten. Also: output filenames now include HHMM timestamps so
+  repeated runs on the same day don't collide. Invariants 11 and 12 added.
 
 ## What you should refuse to do
 

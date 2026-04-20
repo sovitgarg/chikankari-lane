@@ -49,6 +49,16 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--force", action="store_true")
     p.add_argument("--today", type=str, default="")
     p.add_argument("--repo-url", type=str, default="")
+    # Output-scope modes. Default: AUTO — if the spec has new_products but no
+    # changes, emit only those new rows; otherwise emit the full catalog so
+    # existing handles get refreshed by Shopify's Overwrite.
+    scope = p.add_mutually_exclusive_group()
+    scope.add_argument("--only-new-products", action="store_true",
+                       help="Emit a minimal CSV with only the new_products rows. "
+                            "Existing handles in before.csv are left untouched by Shopify.")
+    scope.add_argument("--full-catalog", action="store_true",
+                       help="Emit the full catalog (every existing row + any new ones). "
+                            "Use when you want Shopify Overwrite to refresh existing products.")
     return p.parse_args()
 
 
@@ -58,6 +68,11 @@ def today_str(override: str) -> str:
         dt.date.fromisoformat(override)
         return override
     return dt.date.today().isoformat()
+
+
+def now_stamp() -> str:
+    """YYYY-MM-DD-HHMM — used to make each generated output file unique."""
+    return dt.datetime.now().strftime("%Y-%m-%d-%H%M")
 
 
 def newest_before_csv(exports_dir: Path, today: str) -> Path:
@@ -304,28 +319,64 @@ def main() -> int:
         if vids:
             video_todos.setdefault(np_spec["handle"], []).extend(vids)
 
-    # Append new products
-    out_rows = list(rows)
+    # Determine output scope.
+    #   --only-new-products: emit only the new_products rows.
+    #   --full-catalog: emit the whole before.csv + new rows.
+    #   default (auto): if the spec has new_products but no changes, behave as
+    #   --only-new-products so we don't accidentally rewrite untouched handles.
+    if args.only_new_products:
+        scope_mode = "only-new-products"
+    elif args.full_catalog:
+        scope_mode = "full-catalog"
+    elif new_products and not changes:
+        scope_mode = "only-new-products"
+    else:
+        scope_mode = "full-catalog"
+    print(f"Output scope     : {scope_mode}")
+
+    if scope_mode == "only-new-products":
+        if not new_products:
+            raise SystemExit("Spec has no new_products but --only-new-products was used.")
+        out_rows: list[OrderedDict] = []
+    else:
+        out_rows = list(rows)
+
     for np_spec in new_products:
         new_rows = build_new_product_rows(np_spec, fieldnames, repo_prefix)
         out_rows.extend(new_rows)
         changelog[np_spec["handle"]] = [f'NEW  price={format_price(np_spec["price"])}  qty={np_spec.get("qty", 1)}  status={np_spec.get("status", "active")}']
 
+    # Output filenames include a timestamp so repeated runs on the same day
+    # never collide and remain auditable. Use --today to override the date.
+    stamp = now_stamp() if not args.today else f'{args.today}-{dt.datetime.now().strftime("%H%M")}'
+    scope_tag = "new" if scope_mode == "only-new-products" else "full"
+
     # Write after.csv
-    after_path = exports_dir / f"{today}-after.csv"
+    after_path = exports_dir / f"{stamp}-{scope_tag}-after.csv"
     if after_path.exists() and not args.force:
         raise SystemExit(f"{after_path} already exists. Pass --force to overwrite.")
     write_rows(after_path, out_rows, fieldnames)
     print(f"Wrote {after_path.relative_to(REPO_ROOT)}  ({len(out_rows)} rows)")
 
     # Write diff.md
-    diff_path = exports_dir / f"{today}-diff.md"
-    write_diff(diff_path, today, before_path, args.spec, repo_prefix, changelog, product_row_by_handle, new_products, video_todos)
+    diff_path = exports_dir / f"{stamp}-{scope_tag}-diff.md"
+    diff_changelog = (
+        {} if scope_mode == "only-new-products"
+        else changelog
+    )
+    write_diff(diff_path, today, before_path, args.spec, repo_prefix, diff_changelog, product_row_by_handle, new_products, video_todos, scope_mode=scope_mode)
     print(f"Wrote {diff_path.relative_to(REPO_ROOT)}")
 
-    changed_count = sum(1 for h, log in changelog.items() if log)
-    print(f"\nProducts changed: {changed_count}/{len(changelog)}")
-    print(f"Products added  : {len(new_products)}")
+    if scope_mode == "only-new-products":
+        print(f"\nProducts added  : {len(new_products)}")
+        print("Existing products left untouched — this CSV will NOT modify any current Shopify product.")
+    else:
+        changed_count = sum(
+            1 for h, log in changelog.items()
+            if log and h in product_row_by_handle
+        )
+        print(f"\nProducts changed: {changed_count}")
+        print(f"Products added  : {len(new_products)}")
     print("\nNext: review the diff, then upload after.csv to Shopify Products → Import")
     print('(enable "Overwrite any current products that have the same handle").')
     return 0
@@ -341,13 +392,21 @@ def write_diff(
     product_rows: dict[str, OrderedDict],
     new_products: list[dict],
     video_todos: dict[str, list[str]] | None = None,
+    scope_mode: str = "full-catalog",
 ) -> None:
     video_todos = video_todos or {}
     lines: list[str] = []
     lines.append(f"# Shopify inventory diff — {today}\n\n")
     lines.append(f"- **Before**: `{before_path.relative_to(REPO_ROOT)}`\n")
     lines.append(f"- **Spec**:   `{spec_path}`\n")
-    lines.append(f"- **Raw-URL prefix**: `{repo_prefix}`\n\n")
+    lines.append(f"- **Raw-URL prefix**: `{repo_prefix}`\n")
+    lines.append(f"- **Scope**: `{scope_mode}`\n")
+    if scope_mode == "only-new-products":
+        lines.append(
+            "- **Effect on existing products**: none. This CSV contains only new products; "
+            "Shopify Overwrite only touches handles present in the CSV.\n"
+        )
+    lines.append("\n")
 
     changed = {h: log for h, log in changelog.items() if log and h in product_rows}
     unchanged = [h for h, log in changelog.items() if not log and h in product_rows]
