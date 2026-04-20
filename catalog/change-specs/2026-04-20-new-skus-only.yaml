@@ -18,6 +18,7 @@ new_products:
       <p><strong>Colour:</strong> Black</p>
       <p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>
     images:
+      - 01-flatlay.jpg
       - 01-image.jpg
       - 02-image.jpg
       - 03-image.jpg
@@ -38,6 +39,7 @@ new_products:
       <p><strong>Colour:</strong> Mehendi Green</p>
       <p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>
     images:
+      - 01-flatlay.jpg
       - 01-image.jpg
       - 02-image.jpg
     videos:
