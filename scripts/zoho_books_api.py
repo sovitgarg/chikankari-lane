@@ -67,6 +67,11 @@ class ZohoBooks:
         self._access_token_expires_at: float = 0
         self._load_cached_token()
 
+        # Pace requests to stay under Zoho's 100 req/min ceiling. 0.75s gap
+        # = ~80 req/min — leaves headroom for retries and concurrent processes.
+        self._min_request_interval = 0.75
+        self._last_request_at: float = 0
+
     # ------------------------------------------------------------------
     # OAuth
     # ------------------------------------------------------------------
@@ -112,14 +117,28 @@ class ZohoBooks:
     # HTTP
     # ------------------------------------------------------------------
     def _request(self, method: str, path: str, *, params: Optional[dict] = None,
-                 json_body: Optional[dict] = None, retries: int = 3) -> dict:
+                 json_body: Optional[dict] = None, retries: int = 4) -> dict:
+        """HTTP wrapper with auth refresh + rate-limit handling.
+
+        Zoho Books limit: 100 req/min per org (no Retry-After header). Window is
+        rolling 60s, so we back off in chunks meaningful at that scale:
+        15s, 30s, 60s, 60s. Total worst-case wait ~2.75 min before giving up.
+        """
         token = self._ensure_token()
         headers = {"Authorization": f"Zoho-oauthtoken {token}"}
         params = dict(params or {})
         params["organization_id"] = self.org_id
 
+        # Backoff schedule sized for Zoho's 60s rolling window
+        rate_limit_waits = [15, 30, 60, 60]
+
         url = f"{self.api_base}{path}"
         for attempt in range(retries):
+            # Self-pace under the per-minute ceiling
+            elapsed = time.time() - self._last_request_at
+            if elapsed < self._min_request_interval:
+                time.sleep(self._min_request_interval - elapsed)
+            self._last_request_at = time.time()
             resp = requests.request(method, url, headers=headers, params=params,
                                      json=json_body, timeout=60)
             if resp.status_code == 401 and attempt < retries - 1:
@@ -128,8 +147,25 @@ class ZohoBooks:
                 headers["Authorization"] = f"Zoho-oauthtoken {token}"
                 continue
             if resp.status_code == 429:
-                wait = 2 ** attempt
-                print(f"  [rate-limit] sleeping {wait}s")
+                # Zoho returns these headers (per inspection 2026-04-28):
+                #   X-Rate-Limit-Limit: 1000      (daily cap on Free plan)
+                #   X-Rate-Limit-Remaining: 0
+                #   X-Rate-Limit-Reset: <seconds-until-reset>
+                reset_s = resp.headers.get("X-Rate-Limit-Reset")
+                limit = resp.headers.get("X-Rate-Limit-Limit")
+                # If the reset window is huge (>5 min), this is the daily cap —
+                # don't burn retries waiting hours; bail with clear error.
+                if reset_s and reset_s.isdigit() and int(reset_s) > 300:
+                    raise RuntimeError(
+                        f"Zoho daily API cap hit (limit={limit}, "
+                        f"resets in {int(reset_s)}s ≈ {int(reset_s)//3600}h{(int(reset_s)%3600)//60}m). "
+                        f"Resume after midnight IST or upgrade plan."
+                    )
+                wait = rate_limit_waits[min(attempt, len(rate_limit_waits) - 1)]
+                if reset_s and reset_s.isdigit() and int(reset_s) < wait:
+                    wait = int(reset_s) + 1
+                print(f"  [rate-limit] 429 — sleeping {wait}s (attempt {attempt+1}/{retries}, "
+                       f"remaining={resp.headers.get('X-Rate-Limit-Remaining', '?')})")
                 time.sleep(wait)
                 continue
             try:
@@ -140,7 +176,7 @@ class ZohoBooks:
             if not resp.ok:
                 raise RuntimeError(f"{method} {path} failed: {resp.status_code} {data}")
             return data
-        raise RuntimeError(f"{method} {path} failed after {retries} retries")
+        raise RuntimeError(f"{method} {path} failed after {retries} retries (likely rate-limit)")
 
     # ------------------------------------------------------------------
     # Org safety

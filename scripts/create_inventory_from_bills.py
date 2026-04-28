@@ -115,22 +115,42 @@ def make_title(desc: str, vendor: str) -> str:
 
 # --- Shopify GraphQL --------------------------------------------------------
 
-def gql(query, variables=None, allow_mutations=False):
+def gql(query, variables=None, allow_mutations=False, retries=3):
+    """Run a Shopify GraphQL call via CLI. Retry on transient failures.
+
+    The CLI's animated spinner sometimes garbles output and the cli itself
+    can hang. We retry up to 3 times with brief sleep between.
+    """
     cmd = ["shopify", "store", "execute", "--store", SHOPIFY_STORE,
            "--query", query, "--json", "--no-color"]
     if variables:
         cmd.extend(["--variables", json.dumps(variables)])
     if allow_mutations:
         cmd.append("--allow-mutations")
-    r = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
-    if r.returncode != 0:
-        raise RuntimeError(r.stderr.strip())
-    out = r.stdout
-    i = out.find("{")
-    data = json.loads(out[i:])
-    if "errors" in data:
-        raise RuntimeError(data["errors"])
-    return data
+
+    last_err = None
+    for attempt in range(retries):
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=60,
+                                env={**__import__("os").environ, "NO_COLOR": "1", "CI": "1"})
+            if r.returncode != 0:
+                raise RuntimeError(f"cli rc={r.returncode}: {r.stderr.strip()[:200]}")
+            out = r.stdout
+            # Extract JSON from output (CLI prints spinner frames first)
+            i = out.find("{")
+            if i < 0:
+                raise RuntimeError(f"no JSON in output: {out[:200]}")
+            data = json.loads(out[i:])
+            if "errors" in data:
+                raise RuntimeError(f"graphql errors: {data['errors']}")
+            return data
+        except (subprocess.TimeoutExpired, RuntimeError, json.JSONDecodeError) as e:
+            last_err = e
+            if attempt < retries - 1:
+                time.sleep(1.5 * (attempt + 1))
+                continue
+            raise RuntimeError(f"failed after {retries} retries: {last_err}")
+    raise RuntimeError(f"failed: {last_err}")
 
 
 def shopify_find_by_handle(handle: str):
@@ -314,17 +334,33 @@ def main() -> int:
     for i, it in enumerate(items, 1):
         prefix = f"  [{i:>3}/{len(items)}] {it['sku']:55s}"
         try:
-            # 1. Zoho item (upsert by SKU)
+            # 1. Zoho item (upsert by SKU). Zoho enforces unique item names —
+            # if name collides (Bill 2 has 2 "Suit Mul Chanderi Booti Jaal"
+            # lines, Bill 3 has 3 "Kurti Muslin"), append SKU suffix and retry.
             existing = zb.find_item_by_sku(it["sku"])
             if existing:
-                # Update rate + cost in case of re-run with new pricing model
                 body = {"rate": it["target"], "purchase_rate": it["cost"], "name": it["title"]}
-                zb._request("PUT", f"/items/{existing['item_id']}", json_body=body)
+                try:
+                    zb._request("PUT", f"/items/{existing['item_id']}", json_body=body)
+                except RuntimeError as e:
+                    if "already exists" in str(e):
+                        body["name"] = f"{it['title']} [{it['sku'].split('-')[-1]}]"
+                        zb._request("PUT", f"/items/{existing['item_id']}", json_body=body)
+                    else:
+                        raise
                 zoho_action = "zoho-updated"
                 item_id = existing["item_id"]
             else:
-                created = zb.create_item(it["title"], it["sku"], it["target"], it["cost"],
-                                          item_type="sales_and_purchases")
+                try:
+                    created = zb.create_item(it["title"], it["sku"], it["target"],
+                                              it["cost"], item_type="sales_and_purchases")
+                except RuntimeError as e:
+                    if "already exists" in str(e):
+                        unique_name = f"{it['title']} [{it['sku'].split('-')[-1]}]"
+                        created = zb.create_item(unique_name, it["sku"], it["target"],
+                                                  it["cost"], item_type="sales_and_purchases")
+                    else:
+                        raise
                 zoho_action = "zoho-created"
                 item_id = created["item_id"]
             stats[zoho_action] += 1
