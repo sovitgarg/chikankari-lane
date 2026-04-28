@@ -102,6 +102,13 @@ def sync_bills(zb: ZohoBooks, vendor_ids: dict[str, str],
                 log(f"would-upsert    {row['Bill Date']} {vendor_name:35s} ₹{total:>9,.0f}", indent=1)
                 stats["would-process"] += 1
             else:
+                # Check if a matching bill already exists with the same total
+                existing = zb.find_bill(vendor_id, row["Bill Date"], row.get("Bill Number"))
+                if existing and abs(float(existing.get("total", 0)) - total) < 1 \
+                        and existing.get("status", "").lower() in ("paid", "partially_paid"):
+                    log(f"skipped-paid   {row['Bill Date']} {vendor_name:35s} ₹{total:>9,.0f} (already paid, total matches)", indent=1)
+                    stats["skipped-paid"] += 1
+                    continue
                 bill, action = zb.upsert_bill(
                     vendor_id=vendor_id,
                     bill_date=row["Bill Date"],
@@ -111,8 +118,9 @@ def sync_bills(zb: ZohoBooks, vendor_ids: dict[str, str],
                 )
                 log(f"{action:14s} {row['Bill Date']} {vendor_name:35s} ₹{total:>9,.0f} (id={bill['bill_id']})", indent=1)
                 stats[action] += 1
-                # Mark paid
-                if row.get("Payment Status", "").strip().lower() == "paid":
+                # Mark paid only if newly created or status is open
+                if row.get("Payment Status", "").strip().lower() == "paid" \
+                        and bill.get("status", "").lower() == "open":
                     try:
                         zb.mark_bill_paid(bill["bill_id"], total, row["Bill Date"], "cash")
                         log(f"marked-paid", indent=2)

@@ -199,8 +199,10 @@ class ZohoBooks:
     # Chart of Accounts
     # ------------------------------------------------------------------
     def find_account(self, name: str, account_type: str = "expense") -> Optional[dict]:
+        # Zoho expects capitalized filter values like AccountType.Expense
+        cap = account_type.capitalize()
         data = self._request("GET", "/chartofaccounts", params={
-            "filter_by": f"AccountType.{account_type}",
+            "filter_by": f"AccountType.{cap}",
         })
         accounts = data.get("chartofaccounts", [])
         # exact match
@@ -367,6 +369,37 @@ class ZohoBooks:
             return None, "skipped (not found - run Shopify sync first)"
         updated = self.update_item_purchase_rate(existing["item_id"], purchase_rate)
         return updated, "updated"
+
+    def create_item(self, name: str, sku: str, rate: float, purchase_rate: float,
+                     item_type: str = "inventory") -> dict:
+        """Create a new Item in Zoho Books with both selling rate and cost."""
+        body = {
+            "name": name,
+            "sku": sku,
+            "rate": rate,
+            "purchase_rate": purchase_rate,
+            "item_type": item_type,
+            "product_type": "goods",
+        }
+        data = self._request("POST", "/items", json_body=body)
+        return data["item"]
+
+    def upsert_item_full(self, sku: str, name: str, rate: float,
+                          purchase_rate: float) -> tuple[dict, str]:
+        """Create item if missing; update rate+cost if exists. Returns (item, action)."""
+        existing = self.find_item_by_sku(sku)
+        if existing:
+            # Update both rate and purchase_rate
+            body = {"rate": rate, "purchase_rate": purchase_rate, "name": name}
+            data = self._request("PUT", f"/items/{existing['item_id']}", json_body=body)
+            return data["item"], "updated"
+        # Try inventory first; fall back to non-inventory if Zoho org doesn't have inventory enabled
+        try:
+            return self.create_item(name, sku, rate, purchase_rate, "inventory"), "created-inventory"
+        except RuntimeError as e:
+            if "inventory" in str(e).lower() or "tracking" in str(e).lower():
+                return self.create_item(name, sku, rate, purchase_rate, "sales_and_purchases"), "created-sales-purchase"
+            raise
 
 
 if __name__ == "__main__":
