@@ -14,18 +14,24 @@ Source-of-truth CSVs for the Claude Code Chrome plugin to push into Zoho Books, 
 | `02-operational-expenses.csv` | Zoho Expenses | Purchases → Expenses → Import Expenses |
 | `03-per-piece-costs.csv` | Reference (cost lookup) | All 107 pieces extracted from bills with unit cost |
 | `04-sku-to-cost-mapping.csv` | Reference / audit | Maps each Shopify SKU → bill row + cost. Confidence flag per row. |
-| `05-shopify-cost-update.csv` | **Shopify Admin** | Products → Import. Sets `Cost per item` for the 16 active SKUs. Auto-syncs to Zoho Item Purchase Rate. |
+| `05-shopify-cost-update.csv` | **Shopify Admin** | Products → Import. Sets `Cost per item` for the 16 active SKUs. |
+| `06-zoho-items-cost-update.csv` | **Zoho Books Items** | Items → Import Items. Sets `Purchase Rate` (cost) on the same 16 SKUs in Zoho. |
 
 ## Three flows
 
 ### Flow 1 — Zoho Vendor Bills + Expenses (Chrome plugin handles this)
 Captures cash outflow / COGS in P&L. Each bill is one line at the negotiated total (no per-piece itemization on the bill).
 
-### Flow 2 — Per-piece costs (Shopify-side)
-The 107 per-piece costs are kept in `03-per-piece-costs.csv` as reference. They land in Shopify's `Cost per item` field per SKU; the existing Shopify→Zoho sync then populates the Zoho Item Purchase Rate. Margin auto-calculates on every sale.
+### Flow 2 — Per-piece cost reference
+The 107 per-piece costs are kept in `03-per-piece-costs.csv` as a lookup. Used to generate Flow 3 files and to set cost when new SKUs are created in Shopify.
 
-### Flow 3 — Shopify cost update (use `05-shopify-cost-update.csv`)
-16 active SKUs mapped to source-bill costs (intelligent matching, ~40% homogenous margin target). Push via Shopify Admin → Products → Import.
+### Flow 3 — Cost update to BOTH Shopify and Zoho Books (16 active SKUs)
+**Important:** The Shopify→Zoho Books integration does NOT auto-sync the cost field. Cost must be written to both systems independently. Two parallel imports:
+
+1. **Shopify side** — push `05-shopify-cost-update.csv` via Shopify Admin → Products → Import. Sets `Cost per item`. Used by Shopify Analytics' margin reports.
+2. **Zoho Books side** — push `06-zoho-items-cost-update.csv` via Zoho Books → Items → Import Items. Sets `Purchase Rate` (cost) on each Item. Used by Zoho's profit reports.
+
+Both files contain the same SKU/cost data (intelligent matching, ~40% homogenous margin target). Match key for both = SKU.
 
 ## Inventory bills summary
 
@@ -95,11 +101,19 @@ All inventory was sourced in Lucknow.
 
 7. **Payment status** — mark all bills/expenses as **Paid**, payment date = bill/expense date (cash basis).
 
-8. **Final report** — at the end, output:
+8. **Items cost update** — import `06-zoho-items-cost-update.csv` into Zoho Books → Items → Import Items.
+   - For each row, match by **SKU** to existing Items (created earlier by the Shopify sync).
+   - If match → **OVERWRITE** the `Purchase Rate` (cost) field with the CSV value. Don't change other fields.
+   - If no match for a SKU → skip and log (means the Shopify sync hasn't created that item in Zoho yet — re-run Shopify sync first).
+   - Do NOT create duplicate items if SKUs match existing ones.
+   - Verify: 16 items should have Purchase Rate set.
+
+9. **Final report** — at the end, output:
    - X vendors created, Y reused/updated
    - X bills created, Y overwritten — total ₹4,86,382 (verify)
-   - X expenses created, Y overwritten — total ₹54,000 one-time + recurring set up
-   - Org-level Jan–Apr 2026 total spend vs. expected **₹5,46,654** — flag variance.
+   - X expenses created, Y overwritten — total ₹53,000 one-time + recurring set up
+   - X items had Purchase Rate updated, Y skipped (not found)
+   - Org-level Jan–Apr 2026 total spend vs. expected **₹5,45,434** — flag variance.
 
 ### Hard rules
 
