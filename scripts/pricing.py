@@ -37,8 +37,14 @@ from typing import Iterable
 VARIABLE_PER_PIECE = 280.0          # ₹100 packaging + ₹180 avg shipping
 ANNUAL_FIXED_COST = 176_052.0       # ₹156K travel + ₹14K one-time + ₹6,052 subs
 PIECES_PER_MONTH = 30               # planning volume (FY27)
-PAYMENT_FEE_RATE = 0.02             # Razorpay
+PAYMENT_FEE_RATE = 0.02             # Razorpay base rate
+PAYMENT_FEE_GST = 0.0036            # 18% GST on the 2% fee = 0.36% of revenue
+RETURNS_DAMAGE_BUFFER = 0.05        # 5% safety: returns, damage, fraud, discounts
 DEFAULT_MARKUP = 0.30               # 30% on top of no-loss floor
+
+# Effective deduction from gross revenue when computing break-even
+# (= what you actually keep before COGS+overhead)
+EFFECTIVE_DEDUCTION = PAYMENT_FEE_RATE + PAYMENT_FEE_GST + RETURNS_DAMAGE_BUFFER  # ≈ 7.4%
 
 # Derived
 PIECES_PER_YEAR = PIECES_PER_MONTH * 12
@@ -55,24 +61,30 @@ def round_up_to_10(x: float) -> int:
 def no_loss_sell_price(cost: float, *,
                         variable: float = VARIABLE_PER_PIECE,
                         fixed: float = FIXED_PER_PIECE,
-                        payment_fee: float = PAYMENT_FEE_RATE) -> int:
-    """Break-even sell price.
+                        deduction: float = EFFECTIVE_DEDUCTION) -> int:
+    """Conservative break-even sell price.
 
-    At this price: net revenue (sell - payment fee) exactly covers
-    cost + variable + fixed allocation. Profit = 0.
+    At this price: revenue (after payment fees, GST on fees, and a returns/damage
+    buffer) exactly covers cost + variable + fixed allocation. Profit = 0.
 
-    Formula: (cost + variable + fixed) / (1 - payment_fee)
+    Formula: (cost + variable + fixed) / (1 - effective_deduction)
+
+    Where effective_deduction includes:
+      - 2.00% Razorpay base fee
+      - 0.36% GST on the Razorpay fee (18% GST)
+      - 5.00% safety buffer (returns, damage, discounts, fraud)
+      = 7.36% total
 
     Args:
         cost: per-piece purchase cost from vendor (₹)
         variable: per-piece variable cost — packaging + shipping (₹)
         fixed: per-piece allocation of annual fixed cost (₹)
-        payment_fee: payment gateway fee as decimal (0.02 = 2%)
+        deduction: combined deduction rate (default 0.0736)
 
     Returns:
         Sell price in ₹, rounded up to nearest ₹10.
     """
-    raw = (cost + variable + fixed) / (1.0 - payment_fee)
+    raw = (cost + variable + fixed) / (1.0 - deduction)
     return round_up_to_10(raw)
 
 
@@ -80,19 +92,19 @@ def target_sell_price(cost: float, *,
                        markup: float = DEFAULT_MARKUP,
                        variable: float = VARIABLE_PER_PIECE,
                        fixed: float = FIXED_PER_PIECE,
-                       payment_fee: float = PAYMENT_FEE_RATE) -> int:
+                       deduction: float = EFFECTIVE_DEDUCTION) -> int:
     """Recommended sell price = no-loss × (1 + markup).
 
     Args:
         cost: per-piece purchase cost (₹)
         markup: profit markup as decimal on top of no-loss (0.30 = 30%)
-        variable, fixed, payment_fee: see no_loss_sell_price
+        variable, fixed, deduction: see no_loss_sell_price
 
     Returns:
         Sell price in ₹, rounded up to nearest ₹10.
     """
     floor = no_loss_sell_price(cost, variable=variable, fixed=fixed,
-                                 payment_fee=payment_fee)
+                                 deduction=deduction)
     return round_up_to_10(floor * (1.0 + markup))
 
 
@@ -112,9 +124,10 @@ class PriceBreakdown:
             f"  + Variable            ₹{self.variable:>8,.0f}  (packaging + shipping)\n"
             f"  + Fixed allocation    ₹{self.fixed:>8,.0f}  (₹{ANNUAL_FIXED_COST:,.0f}/yr ÷ {PIECES_PER_YEAR}/yr)\n"
             f"  Total cost basis      ₹{self.cost + self.variable + self.fixed:>8,.0f}\n"
-            f"  ÷ (1 - {self.payment_fee_rate*100:.0f}% payment fee)\n"
+            f"  ÷ (1 - {EFFECTIVE_DEDUCTION*100:.2f}% effective deduction)\n"
+            f"      where deduction = 2% Razorpay + 0.36% GST on fee + 5% returns buffer\n"
             f"  ─────────────────────────────────\n"
-            f"  No-loss sell price    ₹{self.no_loss:>8,d}  (break-even)\n"
+            f"  No-loss sell price    ₹{self.no_loss:>8,d}  (break-even, conservative)\n"
             f"  × (1 + {self.markup*100:.0f}% markup)\n"
             f"  ─────────────────────────────────\n"
             f"  Target sell price     ₹{self.target:>8,d}  (recommended)\n"
@@ -135,13 +148,14 @@ def breakdown(cost: float, markup: float = DEFAULT_MARKUP) -> PriceBreakdown:
 
 
 def real_margin_pct(cost: float, sell_price: float) -> float:
-    """Real gross margin % at given sell price, after var+fixed+payment fee.
+    """Real gross margin % at given sell price, conservatively.
 
-    Useful for auditing existing prices against the model.
+    Uses EFFECTIVE_DEDUCTION (payment fee + GST on fee + returns buffer) as the
+    revenue haircut, not just the bare 2% gateway fee.
     """
     if sell_price <= 0:
         return 0.0
-    net = sell_price * (1.0 - PAYMENT_FEE_RATE)
+    net = sell_price * (1.0 - EFFECTIVE_DEDUCTION)
     full_cost = cost + VARIABLE_PER_PIECE + FIXED_PER_PIECE
     return (net - full_cost) / sell_price * 100.0
 
