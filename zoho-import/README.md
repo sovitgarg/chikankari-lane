@@ -1,6 +1,18 @@
 # Zoho Books Import — Chikankari Lane (Jan–Apr 2026)
 
-Source-of-truth CSVs for the Claude Code Chrome plugin to push into Zoho Books, plus the Shopify cost-update CSV for margin tracking.
+Source-of-truth CSVs for Zoho Books bookkeeping, plus the Shopify cost-update CSV for margin tracking.
+
+## Two ways to push these to Zoho
+
+**Recommended (faster, scriptable, repeatable):**
+```bash
+python3 scripts/sync_zoho.py --dry-run   # preview
+python3 scripts/sync_zoho.py             # commit
+```
+One-time setup: `specs/02-zoho-books-api-setup.md` (~10 min).
+
+**Alternative (manual):**
+Use the Claude Code Chrome plugin or import each CSV via Zoho UI (Purchases → Bills → Import, etc.). See "Plugin instructions" section below.
 
 ## Tax stance (read first)
 

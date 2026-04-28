@@ -30,8 +30,9 @@ chikankari-lane/
 │   └── products/          # Product description templates
 ├── catalog/               # Product CSV (the source of truth for products)
 ├── specs/                 # Navigation, shipping, theme, app specs
-├── scripts/               # Shopify API automation scripts
+├── scripts/               # Shopify + Zoho API automation scripts
 ├── config/                # API tokens (gitignored)
+├── zoho-import/           # Source-of-truth CSVs for Zoho Books bookkeeping
 └── assets/                # Logo files, product photos, lifestyle shots
 ```
 
@@ -43,6 +44,8 @@ chikankari-lane/
 4. **Shopify automation lives in `scripts/`**. All scripts read from `config/shopify.env`.
 5. **Never push to Shopify production without showing the user a diff first.** Use draft themes for theme changes; preview before publishing.
 6. **Brand voice:** to be defined in `brand/voice.md` — until then, default to warm-luxury (heritage + craftsmanship + accessible).
+7. **Zoho Books automation:** all bookkeeping flows through `zoho-import/*.csv` → `scripts/sync_zoho.py`. Edit the CSV, run the script. Idempotent overwrite on (vendor + date) for bills, (vendor + date + account) for expenses, SKU for items. Setup spec: `specs/02-zoho-books-api-setup.md`. Zoho login: `hello@chikankarilane.com` (Google), data center `.in`.
+8. **Tax stance:** Chikankari Lane is NOT GST-registered. Bills are recorded at gross (incl. any GST paid to vendors) with 0% tax in Zoho. GST paid is part of COGS. Don't split bills into base+tax unless the brand registers for GST.
 
 ## Tech stack
 
@@ -53,6 +56,7 @@ chikankari-lane/
 - Reviews: Judge.me — TBD
 - Email: Klaviyo — TBD
 - Domain: TBD (likely chikankarilane.com or .in)
+- Bookkeeping: Zoho Books (`hello@chikankarilane.com`, India DC). Cost-of-goods cost field is NOT auto-synced from Shopify → must be written to both via the API script.
 
 ## What's blocking what
 
