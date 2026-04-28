@@ -1,0 +1,17 @@
+Shopify Handle,Shopify Title,Selling Price,Source Bill,Source Item Description,Cost Price,Margin %,Confidence,Notes
+01-crimson-paisley-suit,Crimson Paisley Suit,13990,Bill 1 (Modern Chikan),Suit Mul Chanderi Seq (F/J) + Paul,8200,41.4,HIGH,Premium suit with sequin/paisley work matches description
+02-powder-blue-floral-suit,Powder Blue Floral Suit,9590,Bill 1 (Modern Chikan),Suit Mul Chanderi Paul L Blue,6000,37.4,HIGH,Light blue floral mul match
+04-sky-blue-striped-sequin-suit,Sky Blue Striped Sequin Suit,10990,Bill 1 (Modern Chikan),Suit Soft Silk Mukesh H Sequence (L Blue),6800,38.1,HIGH,Sequin + light blue silk match
+06-pearl-cluster-chikankari-suit,Pearl Cluster Chikankari Suit,11990,Bill 1 (Modern Chikan),Suit Mul Chanderi Cutdana H Paul,6800,43.3,HIGH,Cutdana = pearl cluster - direct match
+07-oatmeal-medallion-suit,Oatmeal Medallion Suit,14990,Bill 1 (Modern Chikan),Suit Mul Chanderi (A/O Dupatta) L Blue,9800,34.6,MEDIUM,Premium suit with allover dupatta - price tier match
+09-oatmeal-collared-chikankari-suit,Oatmeal Collared Chikankari Co-ord Set,9990,Bill 1 (Modern Chikan),Cord Set Limp Shirt + Palazzo,5500,44.9,HIGH,Cord set / co-ord set with shirt+palazzo match
+10-cornflower-blue-sunflower-suit,Cornflower Blue Sunflower Suit,15990,Bill 2 (Modern Chikan),Suit Pure Organza All Over Brown (W/B),9700,39.3,MEDIUM,Premium organza price tier - color may differ (brown vs cornflower)
+13-blush-pink-mul-suit,Blush Pink Mul Suit,9990,Bill 1 (Modern Chikan),Suit Mul Chanderi Paul Baby Pink,6200,38.0,HIGH,Pink mul chanderi direct match
+14-ivory-mul-beige-chikankari-suit,Ivory Mul Suit with Beige Chikankari,15000,Bill 1 (Modern Chikan),Anarkali Mul Chanderi (W/C) Beige,8800,41.3,MEDIUM,Beige + high price match (anarkali could be styled as suit)
+15-navy-mul-chikankari-suit,Navy Mul Chikankari Suit,10990,Bill 1 (Modern Chikan),Suit Mul Chanderi Bird Paul D Blue,6500,40.9,HIGH,Dark blue mul match
+16-ivory-mul-paisley-suit,Ivory Mul Paisley Suit,9000,Bill 2 (Modern Chikan),Suit Mul Chanderi Booti Jaal,5800,35.6,LOW,Mid-tier mul - exact paisley pattern not in supplier descriptors
+18-white-tonal-chikankari-suit,White Tonal Chikankari Suit,8000,Bill 1 (Modern Chikan),Suit Mul Chanderi Paul (W/C) Beige,4800,40.0,HIGH,White/cream tonal mul match
+19-ivory-peach-butti-chikankari-suit,Ivory Peach-Butti Chikankari Men's Kurta Unstitched,6090,Bill 2 (Modern Chikan),Suit Mul Chanderi Zari (N/B),3600,40.9,LOW,Lowest-priced SKU - smaller piece - VERIFY
+20-blush-pink-chikankari-suit,Blush Pink Chikankari Suit,10000,Bill 2 (Modern Chikan),Suit Mul Chanderi (W/C) Booti Jaal,6000,40.0,LOW,Draft status - second pink suit guess
+21-black-chikankari-suit,Black Chikankari Suit,10990,Bill 1 (Modern Chikan),Anarkali Mul Chanderi (O/W) Black,6800,38.1,HIGH,Black + anarkali match (could be styled as suit)
+22-green-chikankari-suit,Mehendi Green Chikankari Suit,13990,Bill 1 (Modern Chikan),Suit Mul Chanderi (A/O Dupatta) L Blue,8200,41.4,LOW,No green descriptor in bills - using premium tier average - VERIFY

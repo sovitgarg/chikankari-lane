@@ -1,347 +1,164 @@
-Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Variant Barcode,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Status
-01-crimson-paisley-kurta,Crimson Paisley Kurta,"<p>Hand-embroidered in Lucknow with white chikankari paisley and floral motifs on a deep crimson mul cotton base.</p>
-<p>The yoke and borders carry generous keri (paisley) and bel (vine) work in dense bakhiya shadow stitch — the most striking signature of Lucknowi chikankari, where the embroidery is worked from the reverse and shows through softly on the front.</p>
-<p>A festive piece designed to anchor wedding-season dressing. Pair with churidar and a contrasting dupatta.</p>
+Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option1 Linked To,Option2 Name,Option2 Value,Option2 Linked To,Option3 Name,Option3 Value,Option3 Linked To,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Unit Price Total Measure,Unit Price Total Measure Unit,Unit Price Base Measure,Unit Price Base Measure Unit,Variant Barcode,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Variant Image,Variant Weight Unit,Variant Tax Code,Cost per item,Status
+22-green-chikankari-suit,Mehendi Green Chikankari Suit,"<p>An unstitched suit in a warm mehendi-green base, worked in vertical panels of dense silver-white chikankari — pinstripe sequin runs break up the body, framed by rich floral bel (vine) borders at the yoke and hem.</p>
 <p><strong>Fabric:</strong> Mul Cotton</p>
-<p><strong>Colour:</strong> Crimson Red</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"bridal, crimson-red, festive, kurta, mul-cotton",true,Size,XS,,,01-crimson-paisley-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Crimson Paisley Kurta — flatlay,false,Crimson Paisley Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,Hand-embroidered in Lucknow with white chikankari paisley and floral motifs on a deep crimson mul cotton base.,active
-01-crimson-paisley-kurta,,,,,,,,Size,S,,,01-crimson-paisley-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-01-crimson-paisley-kurta,,,,,,,,Size,M,,,01-crimson-paisley-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-01-crimson-paisley-kurta,,,,,,,,Size,L,,,01-crimson-paisley-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-01-crimson-paisley-kurta,,,,,,,,Size,XL,,,01-crimson-paisley-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-01-crimson-paisley-kurta,,,,,,,,Size,XXL,,,01-crimson-paisley-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-01-crimson-paisley-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-flatlay-alt.jpg,2,Crimson Paisley Kurta — flatlay alt,,,,
-01-crimson-paisley-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-yoke-detail.jpg,3,Crimson Paisley Kurta — yoke detail,,,,
-01-crimson-paisley-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-yoke-styled.jpg,4,Crimson Paisley Kurta — yoke styled,,,,
-01-crimson-paisley-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://05-embroidery-macro.jpg,5,Crimson Paisley Kurta — embroidery macro,,,,
-02-powder-blue-floral-kurta,Powder Blue Floral Kurta,"<p>A tonal study in powder blue and white. Dense allover chikankari floral work in fine bakhiya and jaali — the embroidery so closely set it reads almost like lace.</p>
-<p>Mul cotton keeps it breathable through long summer afternoons. The whole piece is the work of weeks of hand-stitching by a single artisan family in Lucknow.</p>
-<p>Wears beautifully on its own with white churidar, or layered with deeper jewel tones for festive occasions.</p>
+<p><strong>Colour:</strong> Mehendi Green</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>
+",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"chikankari, festive, lucknow, mehendi-green, mul-cotton, unstitched-suit",true,Title,Default Title,,,,,,,,22-green-chikankari-suit,400.0,shopify,1,deny,manual,13990.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-flatlay_e8cd3ff9-d022-49d3-bb5a-b3e6a6d14cdd.jpg?v=1776673089,1,Mehendi Green Chikankari Suit,false,Mehendi Green Chikankari Suit | Chikankari Lane,"<p>An unstitched suit in a warm mehendi-green base, worked in vertical panels of dense silver-white chikankari — pinstripe sequin runs break up the body, framed",,kg,,,active
+22-green-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-image.jpg?v=1776673089,2,Mehendi Green Chikankari Suit,,,,,,,,
+22-green-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-image_2244238c-a559-4ce5-a86b-33df55954f9b.jpg?v=1776673089,3,Mehendi Green Chikankari Suit,,,,,,,,
+21-black-chikankari-suit,Black Chikankari Suit,"<p>A deep-black unstitched suit with dense silver-white chikankari — scattered mukaish dot buttis across the body, with a classic bakhiya + murri yoke and a mirror-beaded floral medallion at the centre.</p>
 <p><strong>Fabric:</strong> Mul Cotton</p>
-<p><strong>Colour:</strong> Powder Blue</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"everyday, festive, kurta, mul-cotton, powder-blue",true,Size,XS,,,02-powder-blue-floral-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Powder Blue Floral Kurta — flatlay,false,Powder Blue Floral Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,A tonal study in powder blue and white. Dense allover chikankari floral work in fine bakhiya and jaali — the embroidery so closely set it reads almost like lace.,active
-02-powder-blue-floral-kurta,,,,,,,,Size,S,,,02-powder-blue-floral-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-02-powder-blue-floral-kurta,,,,,,,,Size,M,,,02-powder-blue-floral-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-02-powder-blue-floral-kurta,,,,,,,,Size,L,,,02-powder-blue-floral-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-02-powder-blue-floral-kurta,,,,,,,,Size,XL,,,02-powder-blue-floral-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-02-powder-blue-floral-kurta,,,,,,,,Size,XXL,,,02-powder-blue-floral-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-02-powder-blue-floral-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-yoke-detail.jpg,2,Powder Blue Floral Kurta — yoke detail,,,,
-02-powder-blue-floral-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-folded-tray.jpg,3,Powder Blue Floral Kurta — folded tray,,,,
-02-powder-blue-floral-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-pleated-texture.jpg,4,Powder Blue Floral Kurta — pleated texture,,,,
-02-powder-blue-floral-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://05-embroidery-macro.jpg,5,Powder Blue Floral Kurta — embroidery macro,,,,
-02-powder-blue-floral-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://06-folded-alt.jpg,6,Powder Blue Floral Kurta — folded alt,,,,
-02-powder-blue-floral-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://07-portrait-flatlay.jpg,7,Powder Blue Floral Kurta — portrait flatlay,,,,
-02-powder-blue-floral-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://08-portrait-flatlay-alt.jpg,8,Powder Blue Floral Kurta — portrait flatlay alt,,,,
-03-sky-blue-chikankari-dupatta,Sky Blue Chikankari Dupatta,"<p>A featherweight sky-blue mul dupatta with open jaali (net) and linear floral chikankari — sparser, sketch-like work that lets the fabric breathe.</p>
-<p>The scalloped embroidered edge is a defining touch — chikankari at its most restrained.</p>
-<p>Drapes effortlessly over a plain kurta or a fitted blouse for an instant lift.</p>
-<p><strong>Fabric:</strong> Mul Cotton</p>
-<p><strong>Colour:</strong> Sky Blue</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Dupatta,"dupatta, everyday, festive, mul-cotton, sky-blue",true,Size,XS,,,03-sky-blue-chikankari-dupatta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Sky Blue Chikankari Dupatta — flatlay,false,Sky Blue Chikankari Dupatta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"A featherweight sky-blue mul dupatta with open jaali (net) and linear floral chikankari — sparser, sketch-like work that lets the fabric breathe.",active
-03-sky-blue-chikankari-dupatta,,,,,,,,Size,S,,,03-sky-blue-chikankari-dupatta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-03-sky-blue-chikankari-dupatta,,,,,,,,Size,M,,,03-sky-blue-chikankari-dupatta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-03-sky-blue-chikankari-dupatta,,,,,,,,Size,L,,,03-sky-blue-chikankari-dupatta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-03-sky-blue-chikankari-dupatta,,,,,,,,Size,XL,,,03-sky-blue-chikankari-dupatta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-03-sky-blue-chikankari-dupatta,,,,,,,,Size,XXL,,,03-sky-blue-chikankari-dupatta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-03-sky-blue-chikankari-dupatta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-flatlay-alt.jpg,2,Sky Blue Chikankari Dupatta — flatlay alt,,,,
-03-sky-blue-chikankari-dupatta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-flatlay-alt-2.jpg,3,Sky Blue Chikankari Dupatta — flatlay alt 2,,,,
-04-sky-blue-striped-sequin-kurta,Sky Blue Striped Sequin Kurta,"<p>Vertical pinstripe stitching runs the length of this sky-blue kurta, broken by a delicate floral medallion at the centre of the yoke.</p>
-<p>Mukaish (metallic dotting) and fine murri stitches catch the light — a quietly glamorous touch usually reserved for festive chikankari.</p>
-<p>Best styled with a contrast dupatta and kundan jewellery.</p>
-<p><strong>Fabric:</strong> Cotton Chanderi</p>
-<p><strong>Colour:</strong> Sky Blue</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"cotton-chanderi, festive, kurta, sky-blue",true,Size,XS,,,04-sky-blue-striped-sequin-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Sky Blue Striped Sequin Kurta — flatlay,false,Sky Blue Striped Sequin Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"Vertical pinstripe stitching runs the length of this sky-blue kurta, broken by a delicate floral medallion at the centre of the yoke.",active
-04-sky-blue-striped-sequin-kurta,,,,,,,,Size,S,,,04-sky-blue-striped-sequin-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-04-sky-blue-striped-sequin-kurta,,,,,,,,Size,M,,,04-sky-blue-striped-sequin-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-04-sky-blue-striped-sequin-kurta,,,,,,,,Size,L,,,04-sky-blue-striped-sequin-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-04-sky-blue-striped-sequin-kurta,,,,,,,,Size,XL,,,04-sky-blue-striped-sequin-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-04-sky-blue-striped-sequin-kurta,,,,,,,,Size,XXL,,,04-sky-blue-striped-sequin-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-04-sky-blue-striped-sequin-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-portrait.jpg,2,Sky Blue Striped Sequin Kurta — portrait,,,,
-04-sky-blue-striped-sequin-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-yoke-medallion.jpg,3,Sky Blue Striped Sequin Kurta — yoke medallion,,,,
-04-sky-blue-striped-sequin-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-yoke-tilted.jpg,4,Sky Blue Striped Sequin Kurta — yoke tilted,,,,
-04-sky-blue-striped-sequin-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://05-yoke-alt.jpg,5,Sky Blue Striped Sequin Kurta — yoke alt,,,,
-04-sky-blue-striped-sequin-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://06-styled-jewelry.jpg,6,Sky Blue Striped Sequin Kurta — styled jewelry,,,,
-04-sky-blue-striped-sequin-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://07-yoke-angle.jpg,7,Sky Blue Striped Sequin Kurta — yoke angle,,,,
-04-sky-blue-striped-sequin-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://08-embroidery-macro.jpg,8,Sky Blue Striped Sequin Kurta — embroidery macro,,,,
-05-silver-grey-floral-dupatta,Silver Grey Floral Dupatta,"<p>A long, sheer silver-grey georgette dupatta with scattered floral cluster motifs — small bouquets in jaali and phanda, distributed in airy, hand-placed groupings.</p>
-<p>Light, almost weightless. Designed to drape over festive lehengas and anarkalis without weight or fuss.</p>
-<p>The grey base is rare in chikankari and pairs particularly well with both pastels and jewel tones.</p>
-<p><strong>Fabric:</strong> Georgette</p>
-<p><strong>Colour:</strong> Silver Grey</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Dupatta,"bridal, dupatta, festive, georgette, silver-grey",true,Size,XS,,,05-silver-grey-floral-dupatta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Silver Grey Floral Dupatta — flatlay,false,Silver Grey Floral Dupatta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"A long, sheer silver-grey georgette dupatta with scattered floral cluster motifs — small bouquets in jaali and phanda, distributed in airy, hand-placed groupings.",active
-05-silver-grey-floral-dupatta,,,,,,,,Size,S,,,05-silver-grey-floral-dupatta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-05-silver-grey-floral-dupatta,,,,,,,,Size,M,,,05-silver-grey-floral-dupatta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-05-silver-grey-floral-dupatta,,,,,,,,Size,L,,,05-silver-grey-floral-dupatta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-05-silver-grey-floral-dupatta,,,,,,,,Size,XL,,,05-silver-grey-floral-dupatta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-05-silver-grey-floral-dupatta,,,,,,,,Size,XXL,,,05-silver-grey-floral-dupatta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-05-silver-grey-floral-dupatta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-flatlay-alt.jpg,2,Silver Grey Floral Dupatta — flatlay alt,,,,
-06-pearl-cluster-chikankari-kurta,Pearl Cluster Chikankari Kurta,"<p>Vertical panels of raised murri-cluster floral work — tiny rice-shaped knots arranged like pearls — give this pale silver-blue kurta its name.</p>
-<p>The texture is unusually three-dimensional for chikankari, the result of layered phanda and murri stitches placed densely in vertical bands.</p>
-<p>An understated festive piece. Pair with a matching dupatta and silver jewellery.</p>
-<p><strong>Fabric:</strong> Cotton Chanderi</p>
-<p><strong>Colour:</strong> Pale Silver Blue</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"bridal, cotton-chanderi, festive, kurta, pale-silver-blue",true,Size,XS,,,06-pearl-cluster-chikankari-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-yoke-tray.jpg,1,Pearl Cluster Chikankari Kurta — yoke tray,false,Pearl Cluster Chikankari Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,Vertical panels of raised murri-cluster floral work — tiny rice-shaped knots arranged like pearls — give this pale silver-blue kurta its name.,active
-06-pearl-cluster-chikankari-kurta,,,,,,,,Size,S,,,06-pearl-cluster-chikankari-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-06-pearl-cluster-chikankari-kurta,,,,,,,,Size,M,,,06-pearl-cluster-chikankari-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-06-pearl-cluster-chikankari-kurta,,,,,,,,Size,L,,,06-pearl-cluster-chikankari-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-06-pearl-cluster-chikankari-kurta,,,,,,,,Size,XL,,,06-pearl-cluster-chikankari-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-06-pearl-cluster-chikankari-kurta,,,,,,,,Size,XXL,,,06-pearl-cluster-chikankari-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-06-pearl-cluster-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-yoke-alt.jpg,2,Pearl Cluster Chikankari Kurta — yoke alt,,,,
-07-oatmeal-medallion-kurta,Oatmeal Medallion Kurta,"<p>A warm oatmeal mul kurta with vertical panels of white chikankari — large circular sunflower medallions framed by dense bel (vine) borders.</p>
-<p>Fine murri and phanda stitches catch the light and add depth across the body.</p>
-<p>Equally at home for daytime occasions and quiet evening events.</p>
-<p><strong>Fabric:</strong> Mul Cotton</p>
-<p><strong>Colour:</strong> Oatmeal</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"everyday, festive, kurta, mul-cotton, oatmeal",true,Size,XS,,,07-oatmeal-medallion-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-yoke-medallion.jpg,1,Oatmeal Medallion Kurta — yoke medallion,false,Oatmeal Medallion Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,A warm oatmeal mul kurta with vertical panels of white chikankari — large circular sunflower medallions framed by dense bel (vine) borders.,active
-07-oatmeal-medallion-kurta,,,,,,,,Size,S,,,07-oatmeal-medallion-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-07-oatmeal-medallion-kurta,,,,,,,,Size,M,,,07-oatmeal-medallion-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-07-oatmeal-medallion-kurta,,,,,,,,Size,L,,,07-oatmeal-medallion-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-07-oatmeal-medallion-kurta,,,,,,,,Size,XL,,,07-oatmeal-medallion-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-07-oatmeal-medallion-kurta,,,,,,,,Size,XXL,,,07-oatmeal-medallion-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-07-oatmeal-medallion-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-macro-wood.jpg,2,Oatmeal Medallion Kurta — macro wood,,,,
-07-oatmeal-medallion-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-portrait.jpg,3,Oatmeal Medallion Kurta — portrait,,,,
-07-oatmeal-medallion-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-styled-gold.jpg,4,Oatmeal Medallion Kurta — styled gold,,,,
-08-beige-striped-border-dupatta,Beige Striped Border Dupatta,"<p>A subtly striped beige cotton dupatta finished with a single horizontal band of white chikankari medallions and bel work along one border.</p>
-<p>Restrained, everyday-wearable — the kind of piece that quietly elevates a plain kurta into something thought-through.</p>
-<p><strong>Fabric:</strong> Striped Cotton</p>
-<p><strong>Colour:</strong> Beige</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Dupatta,"beige, dupatta, everyday, striped-cotton",true,Size,XS,,,08-beige-striped-border-dupatta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Beige Striped Border Dupatta — flatlay,false,Beige Striped Border Dupatta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,A subtly striped beige cotton dupatta finished with a single horizontal band of white chikankari medallions and bel work along one border.,active
-08-beige-striped-border-dupatta,,,,,,,,Size,S,,,08-beige-striped-border-dupatta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-08-beige-striped-border-dupatta,,,,,,,,Size,M,,,08-beige-striped-border-dupatta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-08-beige-striped-border-dupatta,,,,,,,,Size,L,,,08-beige-striped-border-dupatta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-08-beige-striped-border-dupatta,,,,,,,,Size,XL,,,08-beige-striped-border-dupatta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-08-beige-striped-border-dupatta,,,,,,,,Size,XXL,,,08-beige-striped-border-dupatta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-09-oatmeal-collared-chikankari-kurta,Oatmeal Collared Chikankari Kurta,"<p>A shirt-style collared kurta in oatmeal textured cotton — a less common silhouette in chikankari, designed to bridge ethnic and contemporary wardrobes.</p>
-<p>Vertical panels alternate between jaali (net) stripes and floral medallion bands. The jaali work is created by separating the warp and weft threads of the fabric and binding the spaces with tiny buttonhole stitches — no thread is pulled through the cloth.</p>
-<p>Wear with straight pants for work, or with churidar and jhumkas for an evening out.</p>
-<p><strong>Fabric:</strong> Textured Cotton</p>
-<p><strong>Colour:</strong> Oatmeal</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"everyday, kurta, oatmeal, textured-cotton, workwear",true,Size,XS,,,09-oatmeal-collared-chikankari-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Oatmeal Collared Chikankari Kurta — flatlay,false,Oatmeal Collared Chikankari Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"A shirt-style collared kurta in oatmeal textured cotton — a less common silhouette in chikankari, designed to bridge ethnic and contemporary wardrobes.",active
-09-oatmeal-collared-chikankari-kurta,,,,,,,,Size,S,,,09-oatmeal-collared-chikankari-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-09-oatmeal-collared-chikankari-kurta,,,,,,,,Size,M,,,09-oatmeal-collared-chikankari-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-09-oatmeal-collared-chikankari-kurta,,,,,,,,Size,L,,,09-oatmeal-collared-chikankari-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-09-oatmeal-collared-chikankari-kurta,,,,,,,,Size,XL,,,09-oatmeal-collared-chikankari-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-09-oatmeal-collared-chikankari-kurta,,,,,,,,Size,XXL,,,09-oatmeal-collared-chikankari-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-09-oatmeal-collared-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-yoke-collar.jpg,2,Oatmeal Collared Chikankari Kurta — yoke collar,,,,
-09-oatmeal-collared-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-collar-alt.jpg,3,Oatmeal Collared Chikankari Kurta — collar alt,,,,
-09-oatmeal-collared-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-portrait.jpg,4,Oatmeal Collared Chikankari Kurta — portrait,,,,
-09-oatmeal-collared-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://05-portrait-alt.jpg,5,Oatmeal Collared Chikankari Kurta — portrait alt,,,,
-09-oatmeal-collared-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://06-portrait-overhead.jpg,6,Oatmeal Collared Chikankari Kurta — portrait overhead,,,,
-10-cornflower-blue-sunflower-kurta,Cornflower Blue Sunflower Kurta,"<p>The deepest blue in the collection — a cornflower mul cotton kurta with a fine self-checked weave running through the body.</p>
-<p>White chikankari concentrates at the yoke in a large central sunflower motif framed by bel borders. Murri and shadow-work stitches sit close together, building texture without weight.</p>
-<p>Pairs beautifully with white or off-white bottoms and contrast jewellery.</p>
-<p><strong>Fabric:</strong> Checkered Mul Cotton</p>
-<p><strong>Colour:</strong> Cornflower Blue</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"checkered-mul-cotton, cornflower-blue, everyday, festive, kurta",true,Size,XS,,,10-cornflower-blue-sunflower-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Cornflower Blue Sunflower Kurta — flatlay,false,Cornflower Blue Sunflower Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,The deepest blue in the collection — a cornflower mul cotton kurta with a fine self-checked weave running through the body.,active
-10-cornflower-blue-sunflower-kurta,,,,,,,,Size,S,,,10-cornflower-blue-sunflower-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,Size,M,,,10-cornflower-blue-sunflower-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,Size,L,,,10-cornflower-blue-sunflower-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,Size,XL,,,10-cornflower-blue-sunflower-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,Size,XXL,,,10-cornflower-blue-sunflower-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-flatlay-alt.jpg,2,Cornflower Blue Sunflower Kurta — flatlay alt,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-yoke-body.jpg,3,Cornflower Blue Sunflower Kurta — yoke body,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-yoke-angle.jpg,4,Cornflower Blue Sunflower Kurta — yoke angle,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://05-portrait.jpg,5,Cornflower Blue Sunflower Kurta — portrait,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://06-portrait-alt.jpg,6,Cornflower Blue Sunflower Kurta — portrait alt,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://07-yoke-detail.jpg,7,Cornflower Blue Sunflower Kurta — yoke detail,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://08-embroidery-macro.jpg,8,Cornflower Blue Sunflower Kurta — embroidery macro,,,,
-10-cornflower-blue-sunflower-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://09-yoke-closeup.jpg,9,Cornflower Blue Sunflower Kurta — yoke closeup,,,,
-11-ivory-pink-chikankari-dupatta,Ivory & Pink Chikankari Dupatta,"<p>An ivory mul dupatta worked in a soft pink chikankari thread — a geometric diamond-lattice pattern with a tasselled, fringed edge.</p>
-<p>Pink-on-ivory is a deeply traditional Lucknowi colourway. The diamond lattice is built from short repeated stitches, hand-counted across the weave.</p>
-<p><strong>Fabric:</strong> Mul Cotton</p>
-<p><strong>Colour:</strong> Ivory & Pink</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Dupatta,"dupatta, everyday, festive, ivory-and-pink, mul-cotton",true,Size,XS,,,11-ivory-pink-chikankari-dupatta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay-fringe.jpg,1,Ivory & Pink Chikankari Dupatta — flatlay fringe,false,Ivory & Pink Chikankari Dupatta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"An ivory mul dupatta worked in a soft pink chikankari thread — a geometric diamond-lattice pattern with a tasselled, fringed edge.",active
-11-ivory-pink-chikankari-dupatta,,,,,,,,Size,S,,,11-ivory-pink-chikankari-dupatta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-11-ivory-pink-chikankari-dupatta,,,,,,,,Size,M,,,11-ivory-pink-chikankari-dupatta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-11-ivory-pink-chikankari-dupatta,,,,,,,,Size,L,,,11-ivory-pink-chikankari-dupatta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-11-ivory-pink-chikankari-dupatta,,,,,,,,Size,XL,,,11-ivory-pink-chikankari-dupatta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-11-ivory-pink-chikankari-dupatta,,,,,,,,Size,XXL,,,11-ivory-pink-chikankari-dupatta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-11-ivory-pink-chikankari-dupatta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-flatlay-angle.jpg,2,Ivory & Pink Chikankari Dupatta — flatlay angle,,,,
-11-ivory-pink-chikankari-dupatta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-flatlay-fringe-alt.jpg,3,Ivory & Pink Chikankari Dupatta — flatlay fringe alt,,,,
-11-ivory-pink-chikankari-dupatta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-flatlay-alt.jpg,4,Ivory & Pink Chikankari Dupatta — flatlay alt,,,,
-12-ivory-mul-pink-chikankari-kurta,Ivory Mul Kurta with Pink Chikankari,"<p>Dense allover small-floral chikankari in pale pink thread on an ivory mul base.</p>
-<p>Jaali (net) and murri (knot) stitches build a continuous floral field across the yoke, with denser borders at the hem.</p>
-<p>A versatile piece — light enough for daywear, finished enough for evening.</p>
-<p><strong>Fabric:</strong> Mul Cotton</p>
-<p><strong>Colour:</strong> Ivory with Pink</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"everyday, festive, ivory-with-pink, kurta, mul-cotton",true,Size,XS,,,12-ivory-mul-pink-chikankari-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-folded.jpg,1,Ivory Mul Kurta with Pink Chikankari — folded,false,Ivory Mul Kurta with Pink Chikankari | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,Dense allover small-floral chikankari in pale pink thread on an ivory mul base.,active
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,Size,S,,,12-ivory-mul-pink-chikankari-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,Size,M,,,12-ivory-mul-pink-chikankari-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,Size,L,,,12-ivory-mul-pink-chikankari-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,Size,XL,,,12-ivory-mul-pink-chikankari-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,Size,XXL,,,12-ivory-mul-pink-chikankari-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-folded-alt.jpg,2,Ivory Mul Kurta with Pink Chikankari — folded alt,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-neckline.jpg,3,Ivory Mul Kurta with Pink Chikankari — neckline,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-fold-detail.jpg,4,Ivory Mul Kurta with Pink Chikankari — fold detail,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://05-portrait.jpg,5,Ivory Mul Kurta with Pink Chikankari — portrait,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://06-flatlay.jpg,6,Ivory Mul Kurta with Pink Chikankari — flatlay,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://07-flatlay-alt.jpg,7,Ivory Mul Kurta with Pink Chikankari — flatlay alt,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://08-flatlay-alt-2.jpg,8,Ivory Mul Kurta with Pink Chikankari — flatlay alt 2,,,,
-12-ivory-mul-pink-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://09-yoke-earrings.jpg,9,Ivory Mul Kurta with Pink Chikankari — yoke earrings,,,,
-13-blush-pink-mul-kurta,Blush Pink Mul Kurta,"<p>A blush-pink mul cotton kurta with dense allover white chikankari — large Mughal-style buta (paisley) panels along the borders, accented with mukaish (metallic) dotting.</p>
-<p>The combination of bakhiya, murri and jaali gives the embroidery dimension and a soft inner glow.</p>
-<p>A festive piece that reads beautifully against both warm and cool jewellery tones.</p>
-<p><strong>Fabric:</strong> Mul Cotton</p>
-<p><strong>Colour:</strong> Blush Pink</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"blush-pink, bridal, festive, kurta, mul-cotton",true,Size,XS,,,13-blush-pink-mul-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Blush Pink Mul Kurta — flatlay,false,Blush Pink Mul Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"A blush-pink mul cotton kurta with dense allover white chikankari — large Mughal-style buta (paisley) panels along the borders, accented with mukaish (metallic) dotting.",active
-13-blush-pink-mul-kurta,,,,,,,,Size,S,,,13-blush-pink-mul-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-13-blush-pink-mul-kurta,,,,,,,,Size,M,,,13-blush-pink-mul-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-13-blush-pink-mul-kurta,,,,,,,,Size,L,,,13-blush-pink-mul-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-13-blush-pink-mul-kurta,,,,,,,,Size,XL,,,13-blush-pink-mul-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-13-blush-pink-mul-kurta,,,,,,,,Size,XXL,,,13-blush-pink-mul-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-13-blush-pink-mul-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-flatlay-alt.jpg,2,Blush Pink Mul Kurta — flatlay alt,,,,
-13-blush-pink-mul-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-portrait.jpg,3,Blush Pink Mul Kurta — portrait,,,,
-13-blush-pink-mul-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-folded.jpg,4,Blush Pink Mul Kurta — folded,,,,
-13-blush-pink-mul-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://05-flatlay-alt-2.jpg,5,Blush Pink Mul Kurta — flatlay alt 2,,,,
-13-blush-pink-mul-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://06-portrait-alt.jpg,6,Blush Pink Mul Kurta — portrait alt,,,,
-13-blush-pink-mul-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://07-flatlay-kalash.jpg,7,Blush Pink Mul Kurta — flatlay kalash,,,,
-13-blush-pink-mul-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://08-yoke.jpg,8,Blush Pink Mul Kurta — yoke,,,,
-13-blush-pink-mul-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://09-folded-alt.jpg,9,Blush Pink Mul Kurta — folded alt,,,,
-13-blush-pink-mul-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://10-yoke-alt.jpg,10,Blush Pink Mul Kurta — yoke alt,,,,
-13-blush-pink-mul-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://11-border-macro.jpg,11,Blush Pink Mul Kurta — border macro,,,,
-13-blush-pink-mul-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://12-buta-sequins-macro.jpg,12,Blush Pink Mul Kurta — buta sequins macro,,,,
-14-ivory-mul-beige-chikankari-kurta,Ivory Mul Kurta with Beige Chikankari,"<p>Allover floral chikankari worked in warm beige and champagne thread on ivory mul — a tonal palette that reads softer and more sophisticated than the classic white-on-white.</p>
-<p>Mughal-style butas and a dense floral border, finished with light mukaish accents and jaali along the edges.</p>
-<p>Effortless to style — the warm tonal embroidery flatters most skin tones.</p>
-<p><strong>Fabric:</strong> Mul Cotton</p>
-<p><strong>Colour:</strong> Ivory with Beige</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"everyday, festive, ivory-with-beige, kurta, mul-cotton",true,Size,XS,,,14-ivory-mul-beige-chikankari-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Ivory Mul Kurta with Beige Chikankari — flatlay,false,Ivory Mul Kurta with Beige Chikankari | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,Allover floral chikankari worked in warm beige and champagne thread on ivory mul — a tonal palette that reads softer and more sophisticated than the classic white-on-white.,active
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,Size,S,,,14-ivory-mul-beige-chikankari-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,Size,M,,,14-ivory-mul-beige-chikankari-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,Size,L,,,14-ivory-mul-beige-chikankari-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,Size,XL,,,14-ivory-mul-beige-chikankari-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,Size,XXL,,,14-ivory-mul-beige-chikankari-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-flatlay-alt.jpg,2,Ivory Mul Kurta with Beige Chikankari — flatlay alt,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-flatlay-alt-2.jpg,3,Ivory Mul Kurta with Beige Chikankari — flatlay alt 2,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-portrait.jpg,4,Ivory Mul Kurta with Beige Chikankari — portrait,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://05-yoke-border.jpg,5,Ivory Mul Kurta with Beige Chikankari — yoke border,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://06-portrait-neckline.jpg,6,Ivory Mul Kurta with Beige Chikankari — portrait neckline,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://07-portrait-alt.jpg,7,Ivory Mul Kurta with Beige Chikankari — portrait alt,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://08-border-detail.jpg,8,Ivory Mul Kurta with Beige Chikankari — border detail,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://09-yoke-macro.jpg,9,Ivory Mul Kurta with Beige Chikankari — yoke macro,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://10-yoke-folded.jpg,10,Ivory Mul Kurta with Beige Chikankari — yoke folded,,,,
-14-ivory-mul-beige-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://11-portrait-alt-2.jpg,11,Ivory Mul Kurta with Beige Chikankari — portrait alt 2,,,,
-15-navy-mul-chikankari-kurta,Navy Mul Chikankari Kurta,"<p>The most dramatic piece in the collection — a navy mul kurta worked end to end in dense white chikankari, including the rare bird and peacock motifs traditional to Awadhi embroidery.</p>
-<p>Bakhiya shadow-work and murri knots are layered over the entire surface in white thread that pops against the deep navy ground.</p>
-<p>An evening piece — pair with kundan or polki and a sheer dupatta.</p>
-<p><strong>Fabric:</strong> Mul Cotton</p>
-<p><strong>Colour:</strong> Navy Indigo</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"bridal, festive, kurta, mul-cotton, navy-indigo",true,Size,XS,,,15-navy-mul-chikankari-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-yoke.jpg,1,Navy Mul Chikankari Kurta — yoke,false,Navy Mul Chikankari Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"The most dramatic piece in the collection — a navy mul kurta worked end to end in dense white chikankari, including the rare bird and peacock motifs traditional to Awadhi embroidery.",active
-15-navy-mul-chikankari-kurta,,,,,,,,Size,S,,,15-navy-mul-chikankari-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,Size,M,,,15-navy-mul-chikankari-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,Size,L,,,15-navy-mul-chikankari-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,Size,XL,,,15-navy-mul-chikankari-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,Size,XXL,,,15-navy-mul-chikankari-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-yoke-alt.jpg,2,Navy Mul Chikankari Kurta — yoke alt,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-yoke-folded.jpg,3,Navy Mul Chikankari Kurta — yoke folded,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-yoke-alt-2.jpg,4,Navy Mul Chikankari Kurta — yoke alt 2,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://05-portrait.jpg,5,Navy Mul Chikankari Kurta — portrait,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://06-portrait-alt.jpg,6,Navy Mul Chikankari Kurta — portrait alt,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://07-yoke-macro.jpg,7,Navy Mul Chikankari Kurta — yoke macro,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://08-bird-motif-macro.jpg,8,Navy Mul Chikankari Kurta — bird motif macro,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://09-yoke-folded-alt.jpg,9,Navy Mul Chikankari Kurta — yoke folded alt,,,,
-15-navy-mul-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://10-bird-border-macro.jpg,10,Navy Mul Chikankari Kurta — bird border macro,,,,
-16-ivory-mul-paisley-kurta,Ivory Mul Paisley Kurta,"<p>An understated ivory mul kurta with an open paisley medallion outline at the yoke — chikankari at its most restrained and graphic.</p>
-<p>The airy, spaced-out design lets the soft mul fabric speak. Best worn for daytime occasions where the embroidery is the only ornament.</p>
-<p><strong>Fabric:</strong> Mul Cotton</p>
-<p><strong>Colour:</strong> Ivory</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"everyday, ivory, kurta, mul-cotton",true,Size,XS,,,16-ivory-mul-paisley-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Ivory Mul Paisley Kurta — flatlay,false,Ivory Mul Paisley Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,An understated ivory mul kurta with an open paisley medallion outline at the yoke — chikankari at its most restrained and graphic.,active
-16-ivory-mul-paisley-kurta,,,,,,,,Size,S,,,16-ivory-mul-paisley-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-16-ivory-mul-paisley-kurta,,,,,,,,Size,M,,,16-ivory-mul-paisley-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-16-ivory-mul-paisley-kurta,,,,,,,,Size,L,,,16-ivory-mul-paisley-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-16-ivory-mul-paisley-kurta,,,,,,,,Size,XL,,,16-ivory-mul-paisley-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-16-ivory-mul-paisley-kurta,,,,,,,,Size,XXL,,,16-ivory-mul-paisley-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-16-ivory-mul-paisley-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-flatlay-alt.jpg,2,Ivory Mul Paisley Kurta — flatlay alt,,,,
-16-ivory-mul-paisley-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-flatlay-alt-2.jpg,3,Ivory Mul Paisley Kurta — flatlay alt 2,,,,
-17-ivory-mul-sequinned-chikankari-kurta,Ivory Mul Sequinned Chikankari Kurta,"<p>Dense allover floral chikankari on the yoke and front placket — phanda, murri and jaali stitches in white, accented with sequins and mukaish.</p>
-<p>Intricate paisley medallions frame a V-neckline. Substantially heavier embroidery than our lighter pieces — a true festive kurta.</p>
-<p>Best paired with churidar, a sheer dupatta, and statement earrings.</p>
-<p><strong>Fabric:</strong> Mul Cotton</p>
-<p><strong>Colour:</strong> Ivory</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"bridal, festive, ivory, kurta, mul-cotton",true,Size,XS,,,17-ivory-mul-sequinned-chikankari-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-yoke.jpg,1,Ivory Mul Sequinned Chikankari Kurta — yoke,false,Ivory Mul Sequinned Chikankari Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"Dense allover floral chikankari on the yoke and front placket — phanda, murri and jaali stitches in white, accented with sequins and mukaish.",active
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,Size,S,,,17-ivory-mul-sequinned-chikankari-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,Size,M,,,17-ivory-mul-sequinned-chikankari-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,Size,L,,,17-ivory-mul-sequinned-chikankari-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,Size,XL,,,17-ivory-mul-sequinned-chikankari-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,Size,XXL,,,17-ivory-mul-sequinned-chikankari-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-yoke-earrings.jpg,2,Ivory Mul Sequinned Chikankari Kurta — yoke earrings,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-yoke-side-light.jpg,3,Ivory Mul Sequinned Chikankari Kurta — yoke side light,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-yoke-styled.jpg,4,Ivory Mul Sequinned Chikankari Kurta — yoke styled,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://05-yoke-similar.jpg,5,Ivory Mul Sequinned Chikankari Kurta — yoke similar,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://06-yoke-three-quarter.jpg,6,Ivory Mul Sequinned Chikankari Kurta — yoke three quarter,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://07-portrait.jpg,7,Ivory Mul Sequinned Chikankari Kurta — portrait,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://08-yoke-tray.jpg,8,Ivory Mul Sequinned Chikankari Kurta — yoke tray,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://09-yoke-neckline.jpg,9,Ivory Mul Sequinned Chikankari Kurta — yoke neckline,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://10-embroidery-macro.jpg,10,Ivory Mul Sequinned Chikankari Kurta — embroidery macro,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://11-yoke-neckline-detail.jpg,11,Ivory Mul Sequinned Chikankari Kurta — yoke neckline detail,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://12-yoke-angle.jpg,12,Ivory Mul Sequinned Chikankari Kurta — yoke angle,,,,
-17-ivory-mul-sequinned-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://13-stitches-macro.jpg,13,Ivory Mul Sequinned Chikankari Kurta — stitches macro,,,,
-18-white-tonal-chikankari-kurta,White Tonal Chikankari Kurta,"<p>Subtle white-on-white tonal chikankari across a textured white cotton base — the most quietly elegant piece in the collection.</p>
-<p>The all-over light pattern is built from jaali and bakhiya stitches in matching white thread, so the embroidery reveals itself only in shifting light.</p>
-<p>Endlessly versatile. Wears beautifully with both gold and silver jewellery.</p>
-<p><strong>Fabric:</strong> Cotton</p>
-<p><strong>Colour:</strong> White</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Kurta,"cotton, everyday, kurta, white, workwear",true,Size,XS,,,18-white-tonal-chikankari-kurta-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-jewelry-styled.jpg,1,White Tonal Chikankari Kurta — jewelry styled,false,White Tonal Chikankari Kurta | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,Subtle white-on-white tonal chikankari across a textured white cotton base — the most quietly elegant piece in the collection.,active
-18-white-tonal-chikankari-kurta,,,,,,,,Size,S,,,18-white-tonal-chikankari-kurta-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,Size,M,,,18-white-tonal-chikankari-kurta-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,Size,L,,,18-white-tonal-chikankari-kurta-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,Size,XL,,,18-white-tonal-chikankari-kurta-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,Size,XXL,,,18-white-tonal-chikankari-kurta-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://02-styled-tighter.jpg,2,White Tonal Chikankari Kurta — styled tighter,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://03-chain-draped.jpg,3,White Tonal Chikankari Kurta — chain draped,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://04-necklace-centered.jpg,4,White Tonal Chikankari Kurta — necklace centered,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://05-side-view.jpg,5,White Tonal Chikankari Kurta — side view,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://06-necklace-diagonal.jpg,6,White Tonal Chikankari Kurta — necklace diagonal,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://07-pendant-detail.jpg,7,White Tonal Chikankari Kurta — pendant detail,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://08-pendant-detail-alt.jpg,8,White Tonal Chikankari Kurta — pendant detail alt,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://09-pendant-detail-alt-2.jpg,9,White Tonal Chikankari Kurta — pendant detail alt 2,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://10-pendant-detail-alt-3.jpg,10,White Tonal Chikankari Kurta — pendant detail alt 3,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://11-necklace-draped.jpg,11,White Tonal Chikankari Kurta — necklace draped,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://12-jewelry-hero.jpg,12,White Tonal Chikankari Kurta — jewelry hero,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://13-with-earrings.jpg,13,White Tonal Chikankari Kurta — with earrings,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://14-necklace-styled.jpg,14,White Tonal Chikankari Kurta — necklace styled,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://15-earrings-tray.jpg,15,White Tonal Chikankari Kurta — earrings tray,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://16-tray-styling.jpg,16,White Tonal Chikankari Kurta — tray styling,,,,
-18-white-tonal-chikankari-kurta,,,,,,,,,,,,,,,,,,,,,,,FILE://17-with-jhumkas.jpg,17,White Tonal Chikankari Kurta — with jhumkas,,,,
-19-ivory-peach-butti-chikankari-saree,Ivory Peach-Butti Chikankari Saree,"<p>A six-yard saree in lightweight mul chanderi, scattered with small peach butti (paisley) motifs in repeating rhythm.</p>
-<p>Vertical bands of dense white chikankari — jaali and phanda — run down the pallu in classic Lucknowi pallu treatment.</p>
-<p>Light enough to drape effortlessly. Wear with a contrast blouse and minimal jewellery.</p>
+<p><strong>Colour:</strong> Black</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>
+",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"black, chikankari, festive, lucknow, mul-cotton, unstitched-suit",true,Title,Default Title,,,,,,,,21-black-chikankari-suit,400.0,shopify,1,deny,manual,10990.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-flatlay_befd90ab-d18f-4468-8797-bff341b2bf4d.jpg?v=1776673088,1,Black Chikankari Suit,false,Black Chikankari Suit | Chikankari Lane,"<p>A deep-black unstitched suit with dense silver-white chikankari — scattered mukaish dot buttis across the body, with a classic bakhiya + murri yoke and a mir",,kg,,,active
+21-black-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-image_b810664b-a4a5-44bf-aa9d-ec01cee43360.jpg?v=1776673087,2,Black Chikankari Suit,,,,,,,,
+21-black-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-image.jpg?v=1776673088,3,Black Chikankari Suit,,,,,,,,
+21-black-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-image_ca482938-689f-4fc0-a03c-28b8bb1ae227.jpg?v=1776673088,4,Black Chikankari Suit,,,,,,,,
+20-blush-pink-chikankari-suit,Blush Pink Chikankari Suit,<p>Placeholder record for a blush-pink chikankari suit reported sold on 2026-04-20. Update description and add images before publishing.</p>,Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"blush-pink, chikankari, lucknow, mul-cotton, sold, unstitched-suit",false,Title,Default Title,,,,,,,,20-blush-pink-chikankari-suit,400.0,shopify,0,deny,manual,10000.00,,true,false,,,,,,,,,false,Blush Pink Chikankari Suit | Chikankari Lane,Draft record for a sold blush-pink chikankari piece from 2026-04-20.,,kg,,,draft
+19-ivory-peach-butti-chikankari-suit,Ivory Peach-Butti Chikankari Men's Kurta Unstitched,"<p>A lightweight mul chanderi suit, scattered with small peach butti (paisley) motifs in repeating rhythm.</p>
 <p><strong>Fabric:</strong> Mul Chanderi</p>
 <p><strong>Colour:</strong> Ivory with Peach</p>
-<p><strong>Care:</strong> Dry clean only. Store flat, away from direct sunlight.</p>
-<p><strong>Origin:</strong> Hand-embroidered in Lucknow, India.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Saree,"bridal, festive, ivory-with-peach, mul-chanderi, saree",true,Size,XS,,,19-ivory-peach-butti-chikankari-saree-XS,400,shopify,5,deny,manual,8000.00,,true,true,,FILE://01-flatlay.jpg,1,Ivory Peach-Butti Chikankari Saree — flatlay,false,Ivory Peach-Butti Chikankari Saree | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"A six-yard saree in lightweight mul chanderi, scattered with small peach butti (paisley) motifs in repeating rhythm.",active
-19-ivory-peach-butti-chikankari-saree,,,,,,,,Size,S,,,19-ivory-peach-butti-chikankari-saree-S,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,Size,M,,,19-ivory-peach-butti-chikankari-saree-M,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,Size,L,,,19-ivory-peach-butti-chikankari-saree-L,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,Size,XL,,,19-ivory-peach-butti-chikankari-saree-XL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,Size,XXL,,,19-ivory-peach-butti-chikankari-saree-XXL,400,shopify,5,deny,manual,8000.00,,true,true,,,,,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://02-flatlay-alt.jpg,2,Ivory Peach-Butti Chikankari Saree — flatlay alt,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://03-folded-angled.jpg,3,Ivory Peach-Butti Chikankari Saree — folded angled,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://04-vertical-bands.jpg,4,Ivory Peach-Butti Chikankari Saree — vertical bands,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://05-portrait.jpg,5,Ivory Peach-Butti Chikankari Saree — portrait,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://06-bands-detail.jpg,6,Ivory Peach-Butti Chikankari Saree — bands detail,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://07-folded-angled-alt.jpg,7,Ivory Peach-Butti Chikankari Saree — folded angled alt,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://08-portrait-alt.jpg,8,Ivory Peach-Butti Chikankari Saree — portrait alt,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://09-portrait-alt-2.jpg,9,Ivory Peach-Butti Chikankari Saree — portrait alt 2,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://10-bands-butti-detail.jpg,10,Ivory Peach-Butti Chikankari Saree — bands butti detail,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://11-portrait-alt-3.jpg,11,Ivory Peach-Butti Chikankari Saree — portrait alt 3,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://12-bands-macro.jpg,12,Ivory Peach-Butti Chikankari Saree — bands macro,,,,
-19-ivory-peach-butti-chikankari-saree,,,,,,,,,,,,,,,,,,,,,,,FILE://13-folded-detail.jpg,13,Ivory Peach-Butti Chikankari Saree — folded detail,,,,
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Unstitched Men's Kurta,"chikankari, festive, ivory-with-peach, lucknow, mul-chanderi, unstitched-suit",true,Title,Default Title,,,,,,,,19-ivory-peach-butti-chikankari-suit,400.0,shopify,1,deny,manual,6090.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-flatlay.jpg?v=1776579915,1,"",false,Ivory Peach-Butti Chikankari Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"A lightweight mul chanderi suit, scattered with small peach butti (paisley) motifs in repeating rhythm.",,kg,,,active
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-flatlay-alt.jpg?v=1776579915,2,"",,,,,,,,
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-folded-angled.jpg?v=1776579915,3,"",,,,,,,,
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/04-vertical-bands.jpg?v=1776579915,4,"",,,,,,,,
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/05-portrait.jpg?v=1776579915,5,"",,,,,,,,
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/06-bands-detail.jpg?v=1776579915,6,"",,,,,,,,
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/07-folded-angled-alt.jpg?v=1776579915,7,"",,,,,,,,
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/08-portrait-alt.jpg?v=1776579915,8,"",,,,,,,,
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/09-portrait-alt-2.jpg?v=1776579915,9,"",,,,,,,,
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/10-bands-butti-detail.jpg?v=1776579915,10,"",,,,,,,,
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/11-portrait-alt-3.jpg?v=1776579915,11,"",,,,,,,,
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/12-bands-macro.jpg?v=1776579915,12,"",,,,,,,,
+19-ivory-peach-butti-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/13-folded-detail.jpg?v=1776579915,13,"",,,,,,,,
+18-white-tonal-chikankari-suit,White Tonal Chikankari Suit,"<p>Subtle white-on-white tonal chikankari across a textured white cotton base — the most quietly elegant piece in the collection.</p>
+<p><strong>Fabric:</strong> Cotton</p>
+<p><strong>Colour:</strong> White</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"chikankari, cotton, everyday, lucknow, unstitched-suit, white, workwear",true,Title,Default Title,,,,,,,,18-white-tonal-chikankari-suit,400.0,shopify,0,deny,manual,8000.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-jewelry-styled.jpg?v=1776581019,1,White Tonal Chikankari Suit — image 1,false,White Tonal Chikankari Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,Subtle white-on-white tonal chikankari across a textured white cotton base — the most quietly elegant piece in the collection.,,kg,,,active
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-styled-tighter.jpg?v=1776581019,2,White Tonal Chikankari Suit — image 2,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-chain-draped.jpg?v=1776581019,3,White Tonal Chikankari Suit — image 3,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/04-necklace-centered.jpg?v=1776581019,4,White Tonal Chikankari Suit — image 4,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/05-side-view.jpg?v=1776581019,5,White Tonal Chikankari Suit — image 5,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/06-necklace-diagonal.jpg?v=1776581019,6,White Tonal Chikankari Suit — image 6,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/07-pendant-detail.jpg?v=1776581019,7,White Tonal Chikankari Suit — image 7,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/08-pendant-detail-alt.jpg?v=1776581019,8,White Tonal Chikankari Suit — image 8,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/09-pendant-detail-alt-2.jpg?v=1776581019,9,White Tonal Chikankari Suit — image 9,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/10-pendant-detail-alt-3.jpg?v=1776581019,10,White Tonal Chikankari Suit — image 10,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/11-necklace-draped.jpg?v=1776581019,11,White Tonal Chikankari Suit — image 11,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/12-jewelry-hero.jpg?v=1776581019,12,White Tonal Chikankari Suit — image 12,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/13-with-earrings.jpg?v=1776581019,13,White Tonal Chikankari Suit — image 13,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/14-necklace-styled.jpg?v=1776581019,14,White Tonal Chikankari Suit — image 14,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/15-earrings-tray.jpg?v=1776581019,15,White Tonal Chikankari Suit — image 15,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/16-tray-styling.jpg?v=1776581019,16,White Tonal Chikankari Suit — image 16,,,,,,,,
+18-white-tonal-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/17-with-jhumkas.jpg?v=1776581019,17,White Tonal Chikankari Suit — image 17,,,,,,,,
+16-ivory-mul-paisley-suit,Ivory Mul Paisley Suit,"<p>An understated ivory mul suit with an open paisley medallion outline at the yoke — chikankari at its most restrained and graphic.</p>
+<p><strong>Fabric:</strong> Mul Cotton</p>
+<p><strong>Colour:</strong> Ivory</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"chikankari, everyday, ivory, lucknow, mul-cotton, sold, unstitched-suit",true,Title,Default Title,,,,,,,,16-ivory-mul-paisley-suit,400.0,shopify,0,deny,manual,9000.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-flatlay_c9ed6bb2-5207-49bc-81de-f79d89f23381.jpg?v=1776581016,1,Ivory Mul Paisley Suit — image 1,false,Ivory Mul Paisley Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,An understated ivory mul suit with an open paisley medallion outline at the yoke — chikankari at its most restrained and graphic.,,kg,,,active
+16-ivory-mul-paisley-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-flatlay-alt_b0029fc6-3ef3-417c-9989-d48ac5a0d061.jpg?v=1776581016,2,Ivory Mul Paisley Suit — image 2,,,,,,,,
+16-ivory-mul-paisley-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-flatlay-alt-2_9f01b694-5913-4d0a-9571-179c26f123d8.jpg?v=1776581017,3,Ivory Mul Paisley Suit — image 3,,,,,,,,
+15-navy-mul-chikankari-suit,Navy Mul Chikankari Suit,"<p>The most dramatic piece in the collection — a navy mul suit worked end to end in dense white chikankari, including the rare bird and peacock motifs traditional to Awadhi embroidery.</p>
+<p><strong>Fabric:</strong> Mul Cotton</p>
+<p><strong>Colour:</strong> Navy Indigo</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"chikankari, festive, lucknow, mul-cotton, navy-indigo, unstitched-suit",true,Title,Default Title,,,,,,,,15-navy-mul-chikankari-suit,400.0,shopify,1,deny,manual,10990.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-yoke.jpg?v=1776581016,1,Navy Mul Chikankari Suit — image 1,false,Navy Mul Chikankari Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"The most dramatic piece in the collection — a navy mul suit worked end to end in dense white chikankari, including the rare bird and peacock motifs traditional to Awadhi embroidery.",,kg,,,active
+15-navy-mul-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-yoke-alt_e8cf7cf6-a52f-4fe5-a6ba-a9bed73dd6bd.jpg?v=1776581016,2,Navy Mul Chikankari Suit — image 2,,,,,,,,
+15-navy-mul-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-yoke-folded.jpg?v=1776581015,3,Navy Mul Chikankari Suit — image 3,,,,,,,,
+15-navy-mul-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/04-yoke-alt-2.jpg?v=1776581015,4,Navy Mul Chikankari Suit — image 4,,,,,,,,
+15-navy-mul-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/05-portrait_9b39dc0c-a883-476f-9b25-d0eb1c789654.jpg?v=1776581015,5,Navy Mul Chikankari Suit — image 5,,,,,,,,
+15-navy-mul-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/06-portrait-alt_0a74a096-7f8d-4cff-8b04-8746b96a598b.jpg?v=1776581015,6,Navy Mul Chikankari Suit — image 6,,,,,,,,
+15-navy-mul-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/07-yoke-macro.jpg?v=1776581016,7,Navy Mul Chikankari Suit — image 7,,,,,,,,
+15-navy-mul-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/08-bird-motif-macro.jpg?v=1776581016,8,Navy Mul Chikankari Suit — image 8,,,,,,,,
+15-navy-mul-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/09-yoke-folded-alt.jpg?v=1776581015,9,Navy Mul Chikankari Suit — image 9,,,,,,,,
+15-navy-mul-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/10-bird-border-macro.jpg?v=1776581016,10,Navy Mul Chikankari Suit — image 10,,,,,,,,
+14-ivory-mul-beige-chikankari-suit,Ivory Mul Suit with Beige Chikankari,"<p>Allover floral chikankari worked in warm beige and champagne thread on ivory mul — a tonal palette that reads softer and more sophisticated than the classic white-on-white.</p>
+<p><strong>Fabric:</strong> Mul Cotton</p>
+<p><strong>Colour:</strong> Ivory with Beige</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"chikankari, everyday, festive, ivory-with-beige, lucknow, mul-cotton, unstitched-suit",true,Title,Default Title,,,,,,,,14-ivory-mul-beige-chikankari-suit,400.0,shopify,0,deny,manual,15000.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-flatlay_668ced0e-dd82-40a3-8e55-bfa5d3dab39e.jpg?v=1776581015,1,Ivory Mul Suit with Beige Chikankari — image 1,false,Ivory Mul Suit with Beige Chikankari | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,Allover floral chikankari worked in warm beige and champagne thread on ivory mul — a tonal palette that reads softer and more sophisticated than the classic white-on-white.,,kg,,,active
+14-ivory-mul-beige-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-flatlay-alt_e11cbebc-b787-43b7-913f-bcde4781b48d.jpg?v=1776581015,2,Ivory Mul Suit with Beige Chikankari — image 2,,,,,,,,
+14-ivory-mul-beige-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-flatlay-alt-2_355b15a8-6123-4781-bacc-35cc7d5effa0.jpg?v=1776581015,3,Ivory Mul Suit with Beige Chikankari — image 3,,,,,,,,
+14-ivory-mul-beige-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/04-portrait_744da378-ff4c-4744-bf19-7393a6698567.jpg?v=1776581014,4,Ivory Mul Suit with Beige Chikankari — image 4,,,,,,,,
+14-ivory-mul-beige-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/05-yoke-border.jpg?v=1776581015,5,Ivory Mul Suit with Beige Chikankari — image 5,,,,,,,,
+14-ivory-mul-beige-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/06-portrait-neckline.jpg?v=1776581015,6,Ivory Mul Suit with Beige Chikankari — image 6,,,,,,,,
+14-ivory-mul-beige-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/07-portrait-alt.jpg?v=1776581015,7,Ivory Mul Suit with Beige Chikankari — image 7,,,,,,,,
+14-ivory-mul-beige-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/08-border-detail.jpg?v=1776581015,8,Ivory Mul Suit with Beige Chikankari — image 8,,,,,,,,
+14-ivory-mul-beige-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/09-yoke-macro.jpg?v=1776581014,9,Ivory Mul Suit with Beige Chikankari — image 9,,,,,,,,
+14-ivory-mul-beige-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/10-yoke-folded.jpg?v=1776581015,10,Ivory Mul Suit with Beige Chikankari — image 10,,,,,,,,
+14-ivory-mul-beige-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/11-portrait-alt-2.jpg?v=1776581014,11,Ivory Mul Suit with Beige Chikankari — image 11,,,,,,,,
+13-blush-pink-mul-suit,Blush Pink Mul Suit,"<p>A blush-pink mul cotton suit with dense allover white chikankari — large Mughal-style buta (paisley) panels along the borders, accented with mukaish (metallic) dotting.</p>
+<p><strong>Fabric:</strong> Mul Cotton</p>
+<p><strong>Colour:</strong> Blush Pink</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"blush-pink, chikankari, festive, lucknow, mul-cotton, sold, unstitched-suit",true,Title,Default Title,,,,,,,,13-blush-pink-mul-suit,400.0,shopify,0,deny,manual,9990.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-flatlay_3b5fc958-bdf2-4511-8ea7-5311b51e8f04.jpg?v=1776581013,1,Blush Pink Mul Suit — image 1,false,Blush Pink Mul Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"A blush-pink mul cotton suit with dense allover white chikankari — large Mughal-style buta (paisley) panels along the borders, accented with mukaish (metallic) dotting.",,kg,,,active
+13-blush-pink-mul-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-flatlay-alt_045f38f1-5fe2-42f2-b9de-0cea61978b37.jpg?v=1776581013,2,Blush Pink Mul Suit — image 2,,,,,,,,
+13-blush-pink-mul-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-portrait_d2c3b913-69ed-441e-ba7d-fc4ee6258db5.jpg?v=1776581013,3,Blush Pink Mul Suit — image 3,,,,,,,,
+13-blush-pink-mul-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/04-folded.jpg?v=1776581013,4,Blush Pink Mul Suit — image 4,,,,,,,,
+13-blush-pink-mul-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/05-flatlay-alt-2.jpg?v=1776581013,5,Blush Pink Mul Suit — image 5,,,,,,,,
+13-blush-pink-mul-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/06-portrait-alt_64298391-db16-40eb-beb3-82d714b696ee.jpg?v=1776581013,6,Blush Pink Mul Suit — image 6,,,,,,,,
+13-blush-pink-mul-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/07-flatlay-kalash.jpg?v=1776581013,7,Blush Pink Mul Suit — image 7,,,,,,,,
+13-blush-pink-mul-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/08-yoke.jpg?v=1776581013,8,Blush Pink Mul Suit — image 8,,,,,,,,
+13-blush-pink-mul-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/09-folded-alt.jpg?v=1776581013,9,Blush Pink Mul Suit — image 9,,,,,,,,
+13-blush-pink-mul-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/10-yoke-alt.jpg?v=1776581013,10,Blush Pink Mul Suit — image 10,,,,,,,,
+13-blush-pink-mul-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/11-border-macro.jpg?v=1776581013,11,Blush Pink Mul Suit — image 11,,,,,,,,
+13-blush-pink-mul-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/12-buta-sequins-macro.jpg?v=1776581013,12,Blush Pink Mul Suit — image 12,,,,,,,,
+10-cornflower-blue-sunflower-suit,Cornflower Blue Sunflower Suit,"<p>The deepest blue in the collection — a cornflower mul cotton suit with a fine self-checked weave running through the body.</p>
+<p><strong>Fabric:</strong> Checkered Mul Cotton</p>
+<p><strong>Colour:</strong> Cornflower Blue</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"checkered-mul-cotton, chikankari, cornflower-blue, everyday, festive, lucknow, unstitched-suit",true,Title,Default Title,,,,,,,,10-cornflower-blue-sunflower-suit,400.0,shopify,1,deny,manual,15990.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-flatlay_209bedc2-8c45-453a-867e-da5ced07c107.jpg?v=1776581011,1,Cornflower Blue Sunflower Suit — image 1,false,Cornflower Blue Sunflower Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,The deepest blue in the collection — a cornflower mul cotton suit with a fine self-checked weave running through the body.,,kg,,,active
+10-cornflower-blue-sunflower-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-flatlay-alt_714389d9-e798-4128-94a7-6e584bf3926d.jpg?v=1776581011,2,Cornflower Blue Sunflower Suit — image 2,,,,,,,,
+10-cornflower-blue-sunflower-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-yoke-body.jpg?v=1776581011,3,Cornflower Blue Sunflower Suit — image 3,,,,,,,,
+10-cornflower-blue-sunflower-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/04-yoke-angle.jpg?v=1776581011,4,Cornflower Blue Sunflower Suit — image 4,,,,,,,,
+10-cornflower-blue-sunflower-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/05-portrait_4d23b036-153e-41f7-9eb7-260cbc11f88c.jpg?v=1776581011,5,Cornflower Blue Sunflower Suit — image 5,,,,,,,,
+10-cornflower-blue-sunflower-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/06-portrait-alt.jpg?v=1776581011,6,Cornflower Blue Sunflower Suit — image 6,,,,,,,,
+10-cornflower-blue-sunflower-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/07-yoke-detail.jpg?v=1776581011,7,Cornflower Blue Sunflower Suit — image 7,,,,,,,,
+10-cornflower-blue-sunflower-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/08-embroidery-macro_94952933-4b81-47ea-8fbd-c3f6657ae784.jpg?v=1776581011,8,Cornflower Blue Sunflower Suit — image 8,,,,,,,,
+10-cornflower-blue-sunflower-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/09-yoke-closeup.jpg?v=1776581011,9,Cornflower Blue Sunflower Suit — image 9,,,,,,,,
+09-oatmeal-collared-chikankari-suit,Oatmeal Collared Chikankari Co-ord Set,"<p>A shirt-style collared Co-ord set in oatmeal textured cotton — a less common silhouette in chikankari, designed to bridge ethnic and contemporary wardrobes.</p>
+<p><strong>Fabric:</strong> Textured Cotton</p>
+<p><strong>Colour:</strong> Oatmeal</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Co-ord Set,"chikankari, everyday, lucknow, oatmeal, textured-cotton, unstitched-suit, workwear",true,Title,Default Title,,,,,,,,09-oatmeal-collared-chikankari-suit,400.0,shopify,1,deny,manual,9990.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-flatlay_5d3fb598-ce92-4434-80bb-47a3c3186bb2.jpg?v=1776581010,1,Oatmeal Collared Chikankari Suit — image 1,false,Oatmeal Collared Chikankari Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"A shirt-style collared suit in oatmeal textured cotton — a less common silhouette in chikankari, designed to bridge ethnic and contemporary wardrobes.",,kg,,,active
+09-oatmeal-collared-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-yoke-collar.jpg?v=1776581010,2,Oatmeal Collared Chikankari Suit — image 2,,,,,,,,
+09-oatmeal-collared-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-collar-alt.jpg?v=1776581010,3,Oatmeal Collared Chikankari Suit — image 3,,,,,,,,
+09-oatmeal-collared-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/04-portrait.jpg?v=1776581010,4,Oatmeal Collared Chikankari Suit — image 4,,,,,,,,
+09-oatmeal-collared-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/05-portrait-alt.jpg?v=1776581010,5,Oatmeal Collared Chikankari Suit — image 5,,,,,,,,
+09-oatmeal-collared-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/06-portrait-overhead.jpg?v=1776581010,6,Oatmeal Collared Chikankari Suit — image 6,,,,,,,,
+07-oatmeal-medallion-suit,Oatmeal Medallion Suit,"<p>A warm oatmeal mul suit with vertical panels of white chikankari — large circular sunflower medallions framed by dense bel (vine) borders.</p>
+<p><strong>Fabric:</strong> Mul Cotton</p>
+<p><strong>Colour:</strong> Oatmeal</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"chikankari, everyday, festive, lucknow, mul-cotton, oatmeal, sold, unstitched-suit",true,Title,Default Title,,,,,,,,07-oatmeal-medallion-suit,400.0,shopify,0,deny,manual,14990.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-yoke-medallion.jpg?v=1776581009,1,Oatmeal Medallion Suit — image 1,false,Oatmeal Medallion Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,A warm oatmeal mul suit with vertical panels of white chikankari — large circular sunflower medallions framed by dense bel (vine) borders.,,kg,,,active
+07-oatmeal-medallion-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-macro-wood.jpg?v=1776581009,2,Oatmeal Medallion Suit — image 2,,,,,,,,
+07-oatmeal-medallion-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-portrait.jpg?v=1776581009,3,Oatmeal Medallion Suit — image 3,,,,,,,,
+07-oatmeal-medallion-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/04-styled-gold.jpg?v=1776581009,4,Oatmeal Medallion Suit — image 4,,,,,,,,
+06-pearl-cluster-chikankari-suit,Pearl Cluster Chikankari Suit,"<p>Vertical panels of raised murri-cluster floral work — tiny rice-shaped knots arranged like pearls — give this pale silver-blue suit its name.</p>
+<p><strong>Fabric:</strong> Cotton Chanderi</p>
+<p><strong>Colour:</strong> Pale Silver Blue</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"chikankari, cotton-chanderi, festive, lucknow, pale-silver-blue, unstitched-suit",true,Title,Default Title,,,,,,,,06-pearl-cluster-chikankari-suit,400.0,shopify,1,deny,manual,11990.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-yoke-tray.jpg?v=1776581008,1,Pearl Cluster Chikankari Suit — image 1,false,Pearl Cluster Chikankari Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,Vertical panels of raised murri-cluster floral work — tiny rice-shaped knots arranged like pearls — give this pale silver-blue suit its name.,,kg,,,active
+06-pearl-cluster-chikankari-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-yoke-alt.jpg?v=1776581008,2,Pearl Cluster Chikankari Suit — image 2,,,,,,,,
+04-sky-blue-striped-sequin-suit,Sky Blue Striped Sequin Suit,"<p>Vertical pinstripe stitching runs the length of this sky-blue suit, broken by a delicate floral medallion at the centre of the yoke.</p>
+<p><strong>Fabric:</strong> Cotton Chanderi</p>
+<p><strong>Colour:</strong> Sky Blue</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"chikankari, cotton-chanderi, festive, lucknow, sky-blue, unstitched-suit",true,Title,Default Title,,,,,,,,04-sky-blue-striped-sequin-suit,400.0,shopify,1,deny,manual,10990.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-flatlay_950a1b20-1a33-44a2-a60f-7bca82e2f92f.jpg?v=1776581007,1,Sky Blue Striped Sequin Suit — image 1,false,Sky Blue Striped Sequin Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,"Vertical pinstripe stitching runs the length of this sky-blue suit, broken by a delicate floral medallion at the centre of the yoke.",,kg,,,active
+04-sky-blue-striped-sequin-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-portrait.jpg?v=1776581007,2,Sky Blue Striped Sequin Suit — image 2,,,,,,,,
+04-sky-blue-striped-sequin-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-yoke-medallion.jpg?v=1776581007,3,Sky Blue Striped Sequin Suit — image 3,,,,,,,,
+04-sky-blue-striped-sequin-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/04-yoke-tilted.jpg?v=1776581007,4,Sky Blue Striped Sequin Suit — image 4,,,,,,,,
+04-sky-blue-striped-sequin-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/05-yoke-alt.jpg?v=1776581007,5,Sky Blue Striped Sequin Suit — image 5,,,,,,,,
+04-sky-blue-striped-sequin-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/06-styled-jewelry.jpg?v=1776581007,6,Sky Blue Striped Sequin Suit — image 6,,,,,,,,
+04-sky-blue-striped-sequin-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/07-yoke-angle.jpg?v=1776581007,7,Sky Blue Striped Sequin Suit — image 7,,,,,,,,
+04-sky-blue-striped-sequin-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/08-embroidery-macro.jpg?v=1776581007,8,Sky Blue Striped Sequin Suit — image 8,,,,,,,,
+02-powder-blue-floral-suit,Powder Blue Floral Suit,"<p>A tonal study in powder blue and white. Dense allover chikankari floral work in fine bakhiya and jaali — the embroidery so closely set it reads almost like lace.</p>
+<p><strong>Fabric:</strong> Mul Cotton</p>
+<p><strong>Colour:</strong> Powder Blue</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"chikankari, everyday, festive, lucknow, mul-cotton, powder-blue, unstitched-suit",true,Title,Default Title,,,,,,,,02-powder-blue-floral-suit,400.0,shopify,1,deny,manual,9590.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-flatlay_4561e5ce-762c-45b3-8666-4b7202c9e193.jpg?v=1776581006,1,Powder Blue Floral Suit — image 1,false,Powder Blue Floral Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,A tonal study in powder blue and white. Dense allover chikankari floral work in fine bakhiya and jaali — the embroidery so closely set it reads almost like lace.,,kg,,,active
+02-powder-blue-floral-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-yoke-detail.jpg?v=1776581006,2,Powder Blue Floral Suit — image 2,,,,,,,,
+02-powder-blue-floral-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-folded-tray.jpg?v=1776581006,3,Powder Blue Floral Suit — image 3,,,,,,,,
+02-powder-blue-floral-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/04-pleated-texture.jpg?v=1776581006,4,Powder Blue Floral Suit — image 4,,,,,,,,
+02-powder-blue-floral-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/05-embroidery-macro_3b44ee3d-e589-4cea-b193-287f65d1da4f.jpg?v=1776581006,5,Powder Blue Floral Suit — image 5,,,,,,,,
+02-powder-blue-floral-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/06-folded-alt.jpg?v=1776581006,6,Powder Blue Floral Suit — image 6,,,,,,,,
+02-powder-blue-floral-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/07-portrait-flatlay.jpg?v=1776581006,7,Powder Blue Floral Suit — image 7,,,,,,,,
+02-powder-blue-floral-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/08-portrait-flatlay-alt.jpg?v=1776581006,8,Powder Blue Floral Suit — image 8,,,,,,,,
+02-powder-blue-floral-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/01-flatlay_ea4879c8-6366-4c3e-a201-6ec37f4f2711.jpg?v=1776667842,9,"",,,,,,,,
+01-crimson-paisley-suit,Crimson Paisley Suit,"<p>An unstitched suit hand-embroidered in Lucknow — white chikankari paisley and floral motifs on a deep crimson mul cotton base.</p>
+<p><strong>Fabric:</strong> Mul Cotton</p>
+<p><strong>Colour:</strong> Crimson Red</p>
+<p><strong>Origin:</strong> Hand-embroidered in Lucknow.</p>",Chikankari Lane,Apparel & Accessories > Clothing,Semistitched Suit,"chikankari, crimson-red, festive, lucknow, mul-cotton, unstitched-suit",true,Title,Default Title,,,,,,,,01-crimson-paisley-suit,400.0,shopify,1,deny,manual,13990.00,,true,false,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/03-yoke-detail.jpg?v=1776583802,1,Crimson Paisley Suit — image 3,false,Crimson Paisley Suit | Hand-Embroidered Lucknowi Chikankari | Chikankari Lane,An unstitched suit hand-embroidered in Lucknow — white chikankari paisley and floral motifs on a deep crimson mul cotton base.,,kg,,,active
+01-crimson-paisley-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/02-flatlay-alt_4a95a055-8a16-4e9c-a5d9-882e45941dbe.jpg?v=1776583802,2,Crimson Paisley Suit — image 2,,,,,,,,
+01-crimson-paisley-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/04-yoke-styled.jpg?v=1776581005,3,Crimson Paisley Suit — image 4,,,,,,,,
+01-crimson-paisley-suit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://cdn.shopify.com/s/files/1/0826/4869/4996/files/05-embroidery-macro.jpg?v=1776581005,4,Crimson Paisley Suit — image 5,,,,,,,,

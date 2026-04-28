@@ -1,0 +1,9 @@
+Date,Expense Account,Vendor,Description,Amount,Payment Mode,Recurring,Frequency,Notes
+2026-04-28,Packaging Materials,Printo,Price tags prints, stickers, packaging bags,10000,Cash/Card,No,One-time,Initial packaging stock for launch
+2026-04-28,Travel Expenses,Multiple,Flights for sourcing trips (Lucknow + Bangalore),36000,Cash/Card,No,One-time,Sourcing trips Jan-Apr 2026
+2026-04-28,Travel Expenses,Multiple,Cab expenses for sourcing trips (Lucknow + Bangalore),3000,Cash,No,One-time,Local cabs during sourcing trips Jan-Apr 2026
+2026-04-28,Marketing - Photography,Photographer,Product photo shoot,4000,Cash/Card,No,One-time,Product catalog photography
+2026-04-28,Software Subscriptions,OpenAI,ChatGPT Plus subscription,400,Card,Yes,Annually,Annual subscription
+2026-04-28,Software Subscriptions,Canva,Canva Pro subscription (lowest paid tier - annual),4000,Card,Yes,Annually,Lowest paid tier - 1 user
+2026-04-28,Software Subscriptions,Google Workspace,Google Workspace Business Starter (1 user - annual),1632,Card,Yes,Annually,1 user - Business Starter plan
+2026-04-28,Software Subscriptions,Shopify,Shopify trial pricing,20,Card,Yes,Monthly,Trial plan - Rs 20/month
