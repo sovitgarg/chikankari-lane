@@ -46,6 +46,8 @@ chikankari-lane/
 6. **Brand voice:** to be defined in `brand/voice.md` — until then, default to warm-luxury (heritage + craftsmanship + accessible).
 7. **Zoho Books automation:** all bookkeeping flows through `zoho-import/*.csv` → `scripts/sync_zoho.py`. Edit the CSV, run the script. Idempotent overwrite on (vendor + date) for bills, (vendor + date + account) for expenses, SKU for items. Setup spec: `specs/02-zoho-books-api-setup.md`. Zoho login: `hello@chikankarilane.com` (Google), data center `.in`.
 8. **Tax stance:** Chikankari Lane is NOT GST-registered. Bills are recorded at gross (incl. any GST paid to vendors) with 0% tax in Zoho. GST paid is part of COGS. Don't split bills into base+tax unless the brand registers for GST.
+9. **Shopify Admin API automation:** catalog writes go through `scripts/shopify_admin_api.py` (GraphQL client, idempotent helpers) + orchestrator scripts (`sync_shopify.py` for cost updates today; more orchestrators added as needs arise). Helpers exist for: cost, price, tags, inventory, product fields. Setup spec: `specs/03-shopify-admin-api-setup.md`. Match key for everything is **SKU**. Always run with `--dry-run` first.
+10. **Known automation gap (store is live):** Shopify orders do NOT yet flow into Zoho Books as Sales Invoices. Currently only expenses are in Zoho → P&L shows costs but no revenue. When ready, build `scripts/sync_orders_to_zoho.py` to map Shopify orders → Zoho Sales Invoices + Customers + Payments. Idempotent via Shopify order number. Tax stance per rule 8 (0% / gross).
 
 ## Tech stack
 
